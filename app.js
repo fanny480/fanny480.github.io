@@ -1,5 +1,6 @@
 const API = {
-  statistics: "https://mooncakes.io/api/v0/modules/statistics?raw=true",
+  statistics: "./data/statistics.json",
+  liveStatistics: "https://mooncakes.io/api/v0/modules/statistics?raw=true",
   user: (username) => "https://mooncakes.io/api/v0/user/" + encodeURIComponent(username),
 };
 
@@ -30,7 +31,7 @@ async function loadDashboard({ force = false } = {}) {
 
   try {
     const [rawStatistics, profiles] = await Promise.all([
-      fetchJson(API.statistics),
+      fetchStatistics(),
       fetchProfiles(),
     ]);
 
@@ -50,6 +51,15 @@ async function loadDashboard({ force = false } = {}) {
       true,
     );
     renderError(error);
+  }
+}
+
+async function fetchStatistics() {
+  try {
+    return await fetchJson(API.statistics);
+  } catch (localError) {
+    console.warn("Local statistics file is unavailable, trying live API.", localError);
+    return fetchJson(API.liveStatistics);
   }
 }
 
