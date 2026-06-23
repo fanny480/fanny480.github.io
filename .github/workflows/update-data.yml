@@ -18,15 +18,16 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Download Mooncakes statistics
+      - name: Download and unpack Mooncakes statistics
         run: |
           mkdir -p data
           curl --fail --location --retry 3 --retry-delay 5 \
             "https://mooncakes.io/api/v0/modules/statistics?raw=true" \
-            --output data/statistics.json
+            --output /tmp/mooncakes-statistics.zip
+          unzip -p /tmp/mooncakes-statistics.zip statistics.csv > data/statistics.csv
 
       - name: Commit updated data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update Mooncakes statistics data"
-          file_pattern: data/statistics.json
+          file_pattern: data/statistics.csv
