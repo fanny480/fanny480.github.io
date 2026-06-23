@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mooncakes Community Pulse</title>
+    <meta
+      name="description"
+      content="Track weekly Mooncakes contributors, first-time package contributors, and optional community profile annotations."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav">
+        <a class="brand" href="#top" aria-label="Mooncakes Community Pulse home">
+          <span class="brand-mark">☾</span>
+          <span>Mooncakes Community Pulse</span>
+        </a>
+        <div class="nav-links">
+          <a href="#weekly">每周新增</a>
+          <a href="#contributors">首次贡献</a>
+          <a href="#profiles">画像</a>
+          <a href="#method">方法</a>
+        </div>
+      </nav>
+
+      <section id="top" class="hero-grid">
+        <div>
+          <p class="eyebrow">Open data dashboard</p>
+          <h1>看见 Mooncakes 社区每周长出来的新枝芽。</h1>
+          <p class="lede">
+            这个网页从 Mooncakes 的公开 API 读取包上传数据，统计每周活跃上传者、首次贡献包的用户，并支持用一份可审阅的
+            <code>profiles.json</code> 补充职业、国籍等画像信息。
+          </p>
+          <div class="actions">
+            <button id="refreshButton" type="button">刷新数据</button>
+            <a class="ghost" href="https://mooncakes.io/api/v0/modules/statistics?raw=true" target="_blank" rel="noreferrer">
+              查看数据源
+            </a>
+          </div>
+          <p id="status" class="status" role="status">准备读取 Mooncakes 数据……</p>
+        </div>
+        <aside class="source-card">
+          <h2>数据源</h2>
+          <dl>
+            <div>
+              <dt>包统计</dt>
+              <dd><code>/api/v0/modules/statistics?raw=true</code></dd>
+            </div>
+            <div>
+              <dt>用户详情示例</dt>
+              <dd><code>/api/v0/user/Yoorkin</code></dd>
+            </div>
+            <div>
+              <dt>画像补充</dt>
+              <dd><code>profiles.json</code>，可由社区 PR 维护</dd>
+            </div>
+          </dl>
+        </aside>
+      </section>
+    </header>
+
+    <main>
+      <section class="cards" aria-label="Summary">
+        <article class="metric-card">
+          <span class="metric-label">包记录</span>
+          <strong id="metricPackages">—</strong>
+          <span class="metric-note">从统计接口解析</span>
+        </article>
+        <article class="metric-card">
+          <span class="metric-label">贡献者</span>
+          <strong id="metricContributors">—</strong>
+          <span class="metric-note">按 owner / username 去重</span>
+        </article>
+        <article class="metric-card">
+          <span class="metric-label">本周首次贡献</span>
+          <strong id="metricFirstTimers">—</strong>
+          <span class="metric-note">首次上传包落在最近 7 天</span>
+        </article>
+        <article class="metric-card">
+          <span class="metric-label">画像覆盖</span>
+          <strong id="metricProfileCoverage">—</strong>
+          <span class="metric-note">来自 profiles.json</span>
+        </article>
+      </section>
+
+      <section id="weekly" class="panel">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Weekly registrations / activity</p>
+            <h2>每周新增与首次出现的用户</h2>
+          </div>
+          <p>
+            如果 API 提供真实注册时间，页面会优先使用；否则使用“第一次上传包的时间”作为 first seen 近似值。
+          </p>
+        </div>
+        <div id="weeklyChart" class="chart" aria-label="Weekly contributor chart"></div>
+      </section>
+
+      <section id="contributors" class="panel">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">First package contributors</p>
+            <h2>曾经注册，但第一次贡献包的用户</h2>
+          </div>
+          <label class="search">
+            搜索
+            <input id="searchInput" type="search" placeholder="用户名、职业、国家……" />
+          </label>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>用户</th>
+                <th>首次贡献时间</th>
+                <th>首个包</th>
+                <th>职业</th>
+                <th>国籍 / 地区</th>
+                <th>说明</th>
+              </tr>
+            </thead>
+            <tbody id="contributorsTable">
+              <tr>
+                <td colspan="6">正在加载……</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="profiles" class="panel split">
+        <div>
+          <p class="eyebrow">Community-maintained profiles</p>
+          <h2>画像信息怎么维护？</h2>
+          <p>
+            职业、国籍这类字段不应该靠猜。建议把它们作为开源仓库里的可审阅数据：
+            只有用户自己公开写过、或本人提交 PR 的信息才合并。
+          </p>
+          <p>
+            你可以编辑 <code>profiles.json</code>，以用户名为 key 添加 occupation、country、links 和 note。
+          </p>
+        </div>
+        <pre class="code-sample"><code>{
+  "Yoorkin": {
+    "occupation": "Compiler / tooling developer",
+    "country": "Unknown",
+    "links": ["https://github.com/Yoorkin"],
+    "note": "Example profile annotation"
+  }
+}</code></pre>
+      </section>
+
+      <section id="method" class="panel method">
+        <p class="eyebrow">Methodology</p>
+        <h2>统计口径</h2>
+        <ol>
+          <li>读取公开统计接口，尽量兼容常见字段名：<code>owner</code>、<code>username</code>、<code>created_at</code>、<code>upload_time</code> 等。</li>
+          <li>按用户聚合包记录，取最早的包上传时间作为“首次贡献包”时间。</li>
+          <li>按 ISO 周分组，生成每周首次贡献用户数与活跃上传用户数。</li>
+          <li>职业、国籍不从包数据推断，只从 <code>profiles.json</code> 显示。</li>
+        </ol>
+      </section>
+    </main>
+
+    <footer>
+      Built for the Mooncakes community. Data comes from public Mooncakes APIs; profile annotations are community-maintained.
+    </footer>
+
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>
