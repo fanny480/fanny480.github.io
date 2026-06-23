@@ -1,0 +1,32 @@
+name: Update Mooncakes data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Download Mooncakes statistics
+        run: |
+          mkdir -p data
+          curl --fail --location --retry 3 --retry-delay 5 \
+            "https://mooncakes.io/api/v0/modules/statistics?raw=true" \
+            --output data/statistics.json
+
+      - name: Commit updated data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update Mooncakes statistics data"
+          file_pattern: data/statistics.json
