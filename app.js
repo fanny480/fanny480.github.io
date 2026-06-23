@@ -1,5 +1,5 @@
 const API = {
-  statistics: "./data/statistics.json",
+  statistics: "./data/statistics.csv",
   liveStatistics: "https://mooncakes.io/api/v0/modules/statistics?raw=true",
   user: (username) => "https://mooncakes.io/api/v0/user/" + encodeURIComponent(username),
 };
@@ -47,7 +47,7 @@ async function loadDashboard({ force = false } = {}) {
   } catch (error) {
     console.error(error);
     setStatus(
-      "读取失败：可能是 API 暂时不可用，或浏览器阻止了跨域请求。你可以下载接口 JSON 后在 app.js 中改成本地文件路径。",
+      "读取失败：没有读到 data/statistics.csv，或 CSV 字段无法解析。请确认 GitHub Actions 已解压生成 CSV。",
       true,
     );
     renderError(error);
@@ -56,11 +56,24 @@ async function loadDashboard({ force = false } = {}) {
 
 async function fetchStatistics() {
   try {
-    return await fetchJson(API.statistics);
+    return parseCsv(await fetchText(API.statistics));
   } catch (localError) {
-    console.warn("Local statistics file is unavailable, trying live API.", localError);
-    return fetchJson(API.liveStatistics);
+    console.warn("Local CSV statistics file is unavailable.", localError);
+    throw localError;
   }
+}
+
+async function fetchText(url) {
+  const response = await fetch(url, {
+    headers: { accept: "text/csv,text/plain,*/*" },
+    cache: "no-store",
+  });
+
+  if (!response.ok) {
+    throw new Error("HTTP " + response.status + ": " + url);
+  }
+
+  return response.text();
 }
 
 async function fetchJson(url) {
@@ -94,6 +107,9 @@ function normalizePackages(input) {
       const owner = pickString(record, [
         "owner",
         "username",
+        "user_name",
+        "userName",
+        "login",
         "user",
         "author",
         "publisher",
@@ -102,14 +118,20 @@ function normalizePackages(input) {
         "maintainer",
       ]);
       const name =
-        pickString(record, ["name", "module", "package", "pkg", "id", "full_name"]) ||
+        pickString(record, ["name", "module", "module_name", "moduleName", "package", "package_name", "packageName", "pkg", "id", "full_name"]) ||
         buildPackageName(record);
       const uploadedAt = pickDate(record, [
         "created_at",
         "createdAt",
+        "create_time",
+        "createTime",
         "upload_time",
         "uploaded_at",
         "uploadedAt",
+        "inserted_at",
+        "insertedAt",
+        "registered_at",
+        "registeredAt",
         "publish_time",
         "published_at",
         "publishedAt",
@@ -146,6 +168,60 @@ function findLikelyRecordArray(input) {
 
   const nested = Object.values(input || {}).find((value) => Array.isArray(value) && value.some(isObject));
   return nested || [];
+}
+
+function parseCsv(text) {
+  const rows = [];
+  let row = [];
+  let cell = "";
+  let inQuotes = false;
+
+  for (let index = 0; index < text.length; index += 1) {
+    const char = text[index];
+    const next = text[index + 1];
+
+    if (char === '"' && inQuotes && next === '"') {
+      cell += '"';
+      index += 1;
+      continue;
+    }
+
+    if (char === '"') {
+      inQuotes = !inQuotes;
+      continue;
+    }
+
+    if (char === "," && !inQuotes) {
+      row.push(cell);
+      cell = "";
+      continue;
+    }
+
+    if ((char === "\n" || char === "\r") && !inQuotes) {
+      if (char === "\r" && next === "\n") index += 1;
+      row.push(cell);
+      if (row.some((value) => value !== "")) rows.push(row);
+      row = [];
+      cell = "";
+      continue;
+    }
+
+    cell += char;
+  }
+
+  row.push(cell);
+  if (row.some((value) => value !== "")) rows.push(row);
+
+  if (!rows.length) return [];
+
+  const headers = rows[0].map((header) => header.trim());
+  return rows.slice(1).map((values) => {
+    const record = {};
+    headers.forEach((header, index) => {
+      record[header] = values[index] ?? "";
+    });
+    return record;
+  });
 }
 
 function buildContributors(packages, profiles) {
