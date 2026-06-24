@@ -26,8 +26,15 @@ jobs:
             --output /tmp/mooncakes-statistics.zip
           unzip -p /tmp/mooncakes-statistics.zip statistics.csv > data/statistics.csv
 
+      - name: Enrich public GitHub profile signals
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MAX_GITHUB_PROFILE_USERS: "240"
+        run: |
+          python scripts/enrich_github_profiles.py
+
       - name: Commit updated data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update Mooncakes statistics data"
-          file_pattern: data/statistics.csv
+          file_pattern: data/statistics.csv data/github-profiles.json

@@ -104,13 +104,42 @@ async function fetchJson(url) {
 }
 
 async function fetchProfiles() {
+  const [generatedProfiles, manualProfiles] = await Promise.all([
+    fetchOptionalJson("./data/github-profiles.json"),
+    fetchOptionalJson("./profiles.json"),
+  ]);
+  return mergeProfiles(generatedProfiles, manualProfiles);
+}
+
+async function fetchOptionalJson(url) {
   try {
-    const response = await fetch("./profiles.json", { cache: "no-store" });
+    const response = await fetch(url, { cache: "no-store" });
     if (!response.ok) return {};
     return response.json();
   } catch {
     return {};
   }
+}
+
+function mergeProfiles(generatedProfiles, manualProfiles) {
+  const merged = { ...generatedProfiles };
+  for (const [username, manualProfile] of Object.entries(manualProfiles || {})) {
+    merged[username] = {
+      ...(merged[username] || {}),
+      ...meaningfulProfileFields(manualProfile),
+    };
+  }
+  return merged;
+}
+
+function meaningfulProfileFields(profile) {
+  const ignored = new Set(["", "待确认", "To be confirmed", "Unknown", "unknown"]);
+  return Object.fromEntries(
+    Object.entries(profile || {}).filter(([_key, value]) => {
+      if (Array.isArray(value)) return value.length > 0;
+      return !ignored.has(String(value || "").trim());
+    }),
+  );
 }
 
 function normalizePackages(input) {
@@ -439,7 +468,7 @@ function renderProfileSignals(profile) {
     const confidence = profile.confidence ? "（" + escapeHtml(profile.confidence) + "）" : "";
     lines.push("地区线索：" + escapeHtml(profile.inferred_region) + confidence);
   }
-  return lines.join("<br />") || "待补充";
+  return lines.join("<br />") || '<span class="muted-cell">待补充：请在 profiles.json 中添加公开位置或语言信号</span>';
 }
 
 function renderProfileNote(profile) {

@@ -29,7 +29,12 @@ https://mooncakes.io/api/v0/modules/statistics?raw=true
 
 ## 关于职业、公开位置与语言信号等画像
 
-`profiles.json` 是人工维护的画像层。建议只合并以下信息：
+页面会读取两层画像：
+
+- `data/github-profiles.json`：GitHub Actions 根据公开 GitHub profile 与公开仓库语言自动生成的弱信号。
+- `profiles.json`：人工维护的修正层，会覆盖自动生成字段。
+
+建议只合并以下信息：
 
 1. 用户本人提交的 PR。
 2. 用户在公开主页、GitHub profile、个人网站中明确写出的信息。
