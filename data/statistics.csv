@@ -265,7 +265,7 @@ std,moonbitlang/std,0.1.0,99,1,2024-01-01T00:00:00
 ulex,moonbitlang/ulex,0.3.29,8776,16,2026-06-23T05:44:02.986380
 ulex-runtime,moonbitlang/ulex-runtime,0.4.3,131,1,2026-01-19T06:52:59.858911
 wasm4,moonbitlang/wasm4,0.2.9,813,1,2025-11-18T02:28:47.869535
-x,moonbitlang/x,0.4.45,22861,21,2026-06-02T07:10:46.785149
+x,moonbitlang/x,0.4.46,22886,21,2026-06-24T06:01:49.291953
 yacc,moonbitlang/yacc,0.7.14,19981,21,2026-06-23T08:05:06.173592
 test,Young-Flash/test,0.2.0,25,2,2024-08-23T10:32:04.970519
 test_ignore,Young-Flash/test_ignore,0.2.0,25,2,2024-08-23T10:31:48.481588
