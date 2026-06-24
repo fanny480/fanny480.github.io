@@ -18,6 +18,7 @@
           <span>Mooncakes Community Pulse</span>
         </a>
         <div class="nav-links">
+          <a href="#live">实时动态</a>
           <a href="#weekly">每周新增</a>
           <a href="#contributors">首次贡献</a>
           <a href="#profiles">画像</a>
@@ -83,6 +84,36 @@
           <strong id="metricProfileCoverage">—</strong>
           <span class="metric-note">来自 profiles.json</span>
         </article>
+      </section>
+
+      <section id="live" class="panel live-panel">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Live pulse</p>
+            <h2>此刻的新贡献</h2>
+          </div>
+          <p>
+            静态站点会自动读取最新的 <code>data/statistics.csv</code>。GitHub Actions 每 5 分钟尝试更新一次；页面每 60 秒刷新一次展示。
+          </p>
+        </div>
+        <div class="live-meta">
+          <span id="lastUpdated">数据更新时间：—</span>
+          <span id="nextRefresh">下次页面刷新：—</span>
+        </div>
+        <div class="live-grid">
+          <article>
+            <h3>最新上传的包</h3>
+            <ol id="latestPackages" class="activity-list">
+              <li>正在加载……</li>
+            </ol>
+          </article>
+          <article>
+            <h3>最近首次贡献包的用户</h3>
+            <ol id="latestFirstTimers" class="activity-list">
+              <li>正在加载……</li>
+            </ol>
+          </article>
+        </div>
       </section>
 
       <section id="weekly" class="panel">
