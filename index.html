@@ -47,7 +47,7 @@
           <dl>
             <div>
               <dt>包统计</dt>
-              <dd><code>/api/v0/modules/statistics?raw=true</code></dd>
+              <dd><code id="apiBaseLabel">http://192.168.86.2:18080</code></dd>
             </div>
             <div>
               <dt>用户详情示例</dt>
@@ -173,16 +173,18 @@
       <section id="profiles" class="panel split">
         <div>
           <p class="eyebrow">Community-maintained profiles</p>
-          <h2>画像信息怎么维护？</h2>
+          <h2>画像字段从哪里来？</h2>
           <p>
-            职业、公开位置、语言信号这类字段不应该包装成确定事实。建议把它们作为开源仓库里的可审阅数据：
-            只有用户自己公开写过、或本人提交 PR 的信息才合并。
+            这一块是给读者和贡献者看的透明说明：职业、公开位置、语言信号不是包数据本身的一部分。
+            页面会优先使用 GitHub 公开资料和公开仓库语言生成弱信号，再允许社区通过 <code>profiles.json</code> 修正。
           </p>
           <p>
-            你可以编辑 <code>profiles.json</code>，以用户名为 key 添加 occupation、public_location、language_signal、inferred_region、confidence、links 和 note。
+            它的作用是避免把“猜测”伪装成事实：如果某个画像不准确，可以通过 PR 修改，并在 note 里说明来源。
           </p>
         </div>
-        <pre class="code-sample"><code>{
+        <details class="code-details">
+          <summary>查看 profiles.json 示例</summary>
+          <pre class="code-sample"><code>{
   "Yoorkin": {
     "occupation": "Compiler / tooling developer",
     "public_location": "Unknown",
@@ -193,11 +195,16 @@
     "note": "Example profile annotation"
   }
 }</code></pre>
+        </details>
       </section>
 
       <section id="method" class="panel method">
         <p class="eyebrow">Methodology</p>
-        <h2>统计口径</h2>
+        <h2>这些数字怎么算出来？</h2>
+        <p class="section-note">
+          这一块是为了防止误读：页面统计的是 Mooncakes 包上传数据，不是完整的账号注册数据库。
+          所以“新增”在这里指第一次贡献包的人，而不是刚刚注册账号的人。
+        </p>
         <ol>
           <li>读取公开统计接口，尽量兼容常见字段名：<code>owner</code>、<code>username</code>、<code>created_at</code>、<code>upload_time</code> 等。</li>
           <li>按用户聚合包记录，取最早的包上传时间作为“首次贡献包”时间。</li>
@@ -211,6 +218,7 @@
       Built for the Mooncakes community. Data comes from public Mooncakes APIs; profile annotations are community-maintained.
     </footer>
 
+    <script src="./config.js"></script>
     <script src="./app.js" type="module"></script>
   </body>
 </html>

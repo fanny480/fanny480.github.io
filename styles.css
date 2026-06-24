@@ -499,6 +499,23 @@ td {
   padding: 0;
 }
 
+.code-details {
+  border: 1px solid var(--line);
+  border-radius: 1.2rem;
+  background: rgba(255, 255, 255, 0.52);
+  padding: 0.8rem;
+}
+
+.code-details summary {
+  cursor: pointer;
+  color: var(--ink);
+  font-weight: 800;
+}
+
+.code-details .code-sample {
+  margin-top: 0.8rem;
+}
+
 footer {
   max-width: 1180px;
   margin: 0 auto;

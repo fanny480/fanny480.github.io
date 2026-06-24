@@ -1,7 +1,11 @@
+const CONFIG = window.MOONCAKES_CONFIG || {};
+const API_BASE_URL = (CONFIG.apiBaseUrl || "http://192.168.86.2:18080").replace(/\/$/, "");
+
 const API = {
   statistics: "./data/statistics.csv",
-  liveStatistics: "https://mooncakes.io/api/v0/modules/statistics?raw=true",
-  user: (username) => "https://mooncakes.io/api/v0/user/" + encodeURIComponent(username),
+  liveStatistics: API_BASE_URL + "/api/v0/modules/statistics?raw=true",
+  user: (username) => API_BASE_URL + "/api/v0/user/" + encodeURIComponent(username),
+  manifest: (fullName) => API_BASE_URL + "/api/v0/manifest/" + encodeURIComponent(fullName),
 };
 
 const PAGE_REFRESH_MS = 60 * 1000;
@@ -35,6 +39,7 @@ elements.searchInput.addEventListener("input", renderContributorsTable);
 loadDashboard();
 setInterval(() => loadDashboard(), PAGE_REFRESH_MS);
 setInterval(renderRefreshCountdown, 1000);
+renderApiBaseLabel();
 
 async function loadDashboard({ force = false } = {}) {
   setStatus(force ? "正在刷新 Mooncakes 数据……" : "正在读取 Mooncakes 数据……");
@@ -65,6 +70,13 @@ async function loadDashboard({ force = false } = {}) {
       true,
     );
     renderError(error);
+  }
+}
+
+function renderApiBaseLabel() {
+  const label = document.querySelector("#apiBaseLabel");
+  if (label) {
+    label.textContent = API_BASE_URL + "/api/v0/modules/statistics?raw=true";
   }
 }
 
