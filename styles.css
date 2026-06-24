@@ -261,6 +261,42 @@ main {
   gap: 0.75rem;
 }
 
+.chart-explainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem 1rem;
+  margin: -0.3rem 0 1.2rem;
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.chart-explainer span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.42rem;
+}
+
+.chart-explainer .ratio-note {
+  width: 100%;
+}
+
+.legend-dot {
+  display: inline-block;
+  width: 0.8rem;
+  height: 0.8rem;
+  flex: none;
+  border-radius: 999px;
+}
+
+.legend-dot.first {
+  background: linear-gradient(135deg, var(--accent), var(--accent-3));
+}
+
+.legend-dot.active {
+  background: linear-gradient(135deg, var(--accent-2), var(--accent-3));
+}
+
 .live-panel {
   border-color: rgba(139, 92, 246, 0.22);
 }

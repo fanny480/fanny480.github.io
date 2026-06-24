@@ -119,12 +119,17 @@
       <section id="weekly" class="panel">
         <div class="section-heading">
           <div>
-            <p class="eyebrow">Weekly registrations / activity</p>
-            <h2>每周新增与首次出现的用户</h2>
+            <p class="eyebrow">Weekly first contributors / activity</p>
+            <h2>每周首次贡献与活跃上传</h2>
           </div>
           <p>
-            如果 API 提供真实注册时间，页面会优先使用；否则使用“第一次上传包的时间”作为 first seen 近似值。
+            这里不直接代表“注册用户”。目前公开数据里可靠的是包上传时间，所以页面用“某用户第一次上传包”作为首次贡献时间。
           </p>
+        </div>
+        <div class="chart-explainer">
+          <span><i class="legend-dot first"></i> 首次贡献包用户：这一周第一次出现在包上传数据里的用户。</span>
+          <span><i class="legend-dot active"></i> 活跃上传用户：这一周至少上传过一个包的用户。</span>
+          <span class="ratio-note">右侧数字格式：首次贡献 / 活跃上传。</span>
         </div>
         <div id="weeklyChart" class="chart" aria-label="Weekly contributor chart"></div>
       </section>
