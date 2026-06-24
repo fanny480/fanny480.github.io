@@ -32,7 +32,7 @@
           <h1>看见 Mooncakes 社区每周长出来的新枝芽。</h1>
           <p class="lede">
             这个网页从 Mooncakes 的公开 API 读取包上传数据，统计每周活跃上传者、首次贡献包的用户，并支持用一份可审阅的
-            <code>profiles.json</code> 补充职业、国籍等画像信息。
+            <code>profiles.json</code> 补充职业、公开位置、语言信号等画像信息。
           </p>
           <div class="actions">
             <button id="refreshButton" type="button">刷新数据</button>
@@ -137,7 +137,7 @@
           </div>
           <label class="search">
             搜索
-            <input id="searchInput" type="search" placeholder="用户名、职业、国家……" />
+            <input id="searchInput" type="search" placeholder="用户名、职业、公开位置、语言……" />
           </label>
         </div>
         <div class="table-wrap">
@@ -148,7 +148,7 @@
                 <th>首次贡献时间</th>
                 <th>首个包</th>
                 <th>职业</th>
-                <th>国籍 / 地区</th>
+                <th>公开位置 / 语言信号</th>
                 <th>说明</th>
               </tr>
             </thead>
@@ -166,17 +166,20 @@
           <p class="eyebrow">Community-maintained profiles</p>
           <h2>画像信息怎么维护？</h2>
           <p>
-            职业、国籍这类字段不应该靠猜。建议把它们作为开源仓库里的可审阅数据：
+            职业、公开位置、语言信号这类字段不应该包装成确定事实。建议把它们作为开源仓库里的可审阅数据：
             只有用户自己公开写过、或本人提交 PR 的信息才合并。
           </p>
           <p>
-            你可以编辑 <code>profiles.json</code>，以用户名为 key 添加 occupation、country、links 和 note。
+            你可以编辑 <code>profiles.json</code>，以用户名为 key 添加 occupation、public_location、language_signal、inferred_region、confidence、links 和 note。
           </p>
         </div>
         <pre class="code-sample"><code>{
   "Yoorkin": {
     "occupation": "Compiler / tooling developer",
-    "country": "Unknown",
+    "public_location": "Unknown",
+    "language_signal": "English / Chinese",
+    "inferred_region": "Do not infer nationality from language alone",
+    "confidence": "low",
     "links": ["https://github.com/Yoorkin"],
     "note": "Example profile annotation"
   }
@@ -190,7 +193,7 @@
           <li>读取公开统计接口，尽量兼容常见字段名：<code>owner</code>、<code>username</code>、<code>created_at</code>、<code>upload_time</code> 等。</li>
           <li>按用户聚合包记录，取最早的包上传时间作为“首次贡献包”时间。</li>
           <li>按 ISO 周分组，生成每周首次贡献用户数与活跃上传用户数。</li>
-          <li>职业、国籍不从包数据推断，只从 <code>profiles.json</code> 显示。</li>
+          <li>职业、公开位置、语言信号不从包数据推断，只从 <code>profiles.json</code> 显示；地区线索必须保留置信度与来源。</li>
         </ol>
       </section>
     </main>

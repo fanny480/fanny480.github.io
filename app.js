@@ -382,6 +382,10 @@ function renderContributorsTable() {
       item.username,
       item.firstPackage,
       profile.occupation,
+      profile.public_location,
+      profile.language_signal,
+      profile.inferred_region,
+      profile.confidence,
       profile.country,
       profile.note,
       ...(profile.links || []),
@@ -409,7 +413,7 @@ function renderContributorsTable() {
           "<td>" + formatDate(item.firstContributionAt) + "</td>",
           "<td>" + escapeHtml(item.firstPackage) + "</td>",
           "<td>" + escapeHtml(profile.occupation || "待补充") + "</td>",
-          "<td>" + escapeHtml(profile.country || "待补充") + "</td>",
+          "<td>" + renderProfileSignals(profile) + "</td>",
           "<td>" + renderProfileNote(profile) + "</td>",
           "</tr>",
         ].join("");
@@ -424,6 +428,18 @@ function renderError(error) {
   elements.metricProfileCoverage.textContent = "—";
   elements.weeklyChart.innerHTML = '<p class="status">无法生成图表：' + escapeHtml(error.message) + "</p>";
   elements.contributorsTable.innerHTML = '<tr><td colspan="6">无法读取数据：' + escapeHtml(error.message) + "</td></tr>";
+}
+
+function renderProfileSignals(profile) {
+  const lines = [];
+  const location = profile.public_location || profile.location || profile.country;
+  if (location) lines.push("公开位置：" + escapeHtml(location));
+  if (profile.language_signal) lines.push("语言信号：" + escapeHtml(profile.language_signal));
+  if (profile.inferred_region) {
+    const confidence = profile.confidence ? "（" + escapeHtml(profile.confidence) + "）" : "";
+    lines.push("地区线索：" + escapeHtml(profile.inferred_region) + confidence);
+  }
+  return lines.join("<br />") || "待补充";
 }
 
 function renderProfileNote(profile) {

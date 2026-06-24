@@ -1,10 +1,13 @@
 {
   "Yoorkin": {
-    "occupation": "待确认",
-    "country": "待确认",
+    "occupation": "To be confirmed",
+    "public_location": "To be confirmed",
+    "language_signal": "To be confirmed",
+    "inferred_region": "Do not infer nationality from language alone",
+    "confidence": "low",
     "links": [
       "https://mooncakes.io/api/v0/user/Yoorkin"
     ],
-    "note": "示例：请只填写用户公开声明或本人提交的信息。"
+    "note": "Example profile annotation. Only use public self-declared information or user-submitted PRs."
   }
 }

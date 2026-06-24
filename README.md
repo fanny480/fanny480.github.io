@@ -23,10 +23,11 @@ https://mooncakes.io/api/v0/modules/statistics?raw=true
 - 首次贡献包：某个用户最早的一次包上传时间。
 - 每周首次贡献：首次贡献包时间落在对应 ISO 周的用户数。
 - 每周活跃上传：对应 ISO 周里至少上传过包的用户数。
+- 实时动态：页面每 60 秒重新读取一次站内 CSV；GitHub Actions 每 5 分钟尝试从 Mooncakes API 更新一次 CSV。
 
 如果 Mooncakes API 将来提供真实“用户注册时间”，可以在 `app.js` 中把注册时间字段加入 `pickDate` 的字段列表，并在图表里单独展示。
 
-## 关于职业、国籍等画像
+## 关于职业、公开位置与语言信号等画像
 
 `profiles.json` 是人工维护的画像层。建议只合并以下信息：
 
@@ -34,7 +35,7 @@ https://mooncakes.io/api/v0/modules/statistics?raw=true
 2. 用户在公开主页、GitHub profile、个人网站中明确写出的信息。
 3. 有来源链接、且不涉及隐私推断的信息。
 
-不要根据名字、头像、语言、时区等猜测国籍或职业。
+不要根据名字、头像、语言、时区等猜测国籍或职业。可以记录“语言信号”或“公开位置”，但不要把它包装成确定国籍。
 
 示例：
 
@@ -42,9 +43,12 @@ https://mooncakes.io/api/v0/modules/statistics?raw=true
 {
   "alice": {
     "occupation": "Compiler engineer",
-    "country": "Singapore",
+    "public_location": "Singapore",
+    "language_signal": "English / Chinese",
+    "inferred_region": "Singapore",
+    "confidence": "medium",
     "links": ["https://github.com/alice"],
-    "note": "Self-described on public GitHub profile."
+    "note": "Location is self-described on public GitHub profile; language signal is only a weak clue."
   }
 }
 ```
