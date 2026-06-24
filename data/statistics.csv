@@ -399,7 +399,7 @@ crater-wasm,mizchi/crater-wasm,0.18.0,1916,11,2026-05-22T11:34:59.312476
 crater-webdriver-bidi,mizchi/crater-webdriver-bidi,0.18.0,72057,12,2026-05-22T11:35:07.241512
 crater-webvitals,mizchi/crater-webvitals,0.18.0,793,1,2026-05-22T11:35:09.077145
 crdt_db,mizchi/crdt_db,0.1.1,5786,11,2026-02-07T05:59:16.761884
-css,mizchi/css,0.5.1,42814,12,2026-06-21T17:07:42.989749
+css,mizchi/css,0.5.2,42933,12,2026-06-24T07:50:38.108449
 cst,mizchi/cst,0.1.7,2492,4,2026-05-15T16:58:15.600539
 differencial_ecs,mizchi/differencial_ecs,0.1.1,682,3,2026-03-08T16:11:11.216765
 differentiable_ecs,mizchi/differentiable_ecs,0.2.1,682,3,2026-06-03T11:23:08.673618
@@ -972,7 +972,7 @@ btree,dowdiness/btree,0.1.0,4422,1,2026-04-24T12:18:36.372333
 event-graph-walker,dowdiness/event-graph-walker,0.2.0,23663,12,2026-05-06T13:58:44.771522
 ffi_c,dowdiness/ffi_c,0.1.1,1632,2,2025-10-24T13:55:18.091686
 graphviz,dowdiness/graphviz,0.1.0,4695,5,2026-04-21T13:41:19.354333
-incr,dowdiness/incr,0.9.0,27411,10,2026-06-09T10:05:44.509584
+incr,dowdiness/incr,0.10.1,28024,10,2026-06-24T07:54:34.364230
 js_engine,dowdiness/js_engine,0.3.0,118289,27,2026-06-10T11:37:14.619369
 margs,dowdiness/margs,0.1.2,4638,2,2026-02-16T06:41:24.474228
 moondsp,dowdiness/moondsp,0.5.1,42430,12,2026-05-20T12:01:23.723306
@@ -1083,7 +1083,7 @@ mb-p256,Tigls/mb-p256,0.1.0,1488,1,2026-04-20T18:44:36.981704
 firefly,applejag/firefly,0.2.0,2372,4,2025-09-07T00:52:10.260466
 micromath,applejag/micromath,0.3.0,660,1,2026-04-13T20:01:16.308653
 LunarEvent,FrozenLemonTee/LunarEvent,0.1.1,539,2,2026-06-03T04:05:51.413301
-LunarFormulas,FrozenLemonTee/LunarFormulas,0.1.0,1494,4,2026-06-23T13:22:26.172953
+LunarFormulas,FrozenLemonTee/LunarFormulas,0.2.0,1636,4,2026-06-24T06:52:51.976447
 LunarTUI,FrozenLemonTee/LunarTUI,0.1.0,3717,6,2026-06-03T04:01:50.551935
 LunarUnits,FrozenLemonTee/LunarUnits,0.1.6,9166,43,2026-06-11T15:04:29.117144
 TerminalEvent,FrozenLemonTee/TerminalEvent,0.1.0,340,2,2026-06-03T02:58:34.182585
