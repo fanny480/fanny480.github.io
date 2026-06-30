@@ -197,6 +197,7 @@ webgpu,tonyfettes/webgpu,0.1.7,1626,1,2025-02-09T15:54:00.943996
 wtf16,tonyfettes/wtf16,0.1.1,458,1,2025-09-14T07:46:39.696092
 wtf8,tonyfettes/wtf8,0.1.2,330,1,2026-01-07T02:29:26.125959
 xlog,tonyfettes/xlog,0.4.0,1405,3,2026-06-05T10:08:34.659224
+xxh64,tonyfettes/xxh64,0.1.0,248,1,2026-06-30T14:04:37.875552
 cowsay,bzy-debug/cowsay,0.1.0,90,2,2024-01-01T00:00:00
 cowsay_lib,bzy-debug/cowsay_lib,0.1.0,82,1,2024-01-01T00:00:00
 hello,bzy-debug/hello,0.1.20240510+81e045f4e,24,2,2024-05-10T02:59:53.015764
@@ -675,7 +676,7 @@ moonbit-chalk,kokic/moonbit-chalk,0.6.0,248,1,2026-06-16T12:03:40.201677
 prime,kokic/prime,0.1.6,546,2,2026-04-28T08:00:22.574975
 sexp-html,kokic/sexp-html,0.4.0,1363,1,2026-06-25T04:03:24.920457
 tim,kokic/tim,0.3.0,225,1,2026-06-14T14:42:10.289404
-tinymark,kokic/tinymark,0.3.7,4494,2,2026-06-25T05:34:02.417478
+tinymark,kokic/tinymark,0.3.8,4568,2,2026-06-30T15:29:33.256370
 YHWH,kokic/YHWH,0.2.0,195,1,2026-06-08T05:50:20.385754
 json,jinser/json,0.0.1,551,2,2025-02-06T08:05:55.931796
 baby,jumpping/baby,0.2.0,4270,6,2024-11-27T08:53:04.763310
@@ -965,7 +966,7 @@ relay,Metalymph/relay,0.5.1,2256,4,2026-06-25T16:49:56.341860
 valkey,Metalymph/valkey,0.5.0,1675,2,2026-06-25T16:40:23.881183
 bufferutils,ZSeanYves/bufferutils,0.24.0,6279,3,2026-05-08T17:17:11.145835
 doc_parser,ZSeanYves/doc_parser,0.1.1,92139,69,2026-05-11T07:26:24.642605
-markitdown,ZSeanYves/markitdown,0.4.1,115306,64,2026-06-29T16:28:43.538766
+markitdown,ZSeanYves/markitdown,0.4.2,121891,64,2026-06-30T17:47:12.592840
 MoonbitBSON,ZSeanYves/MoonbitBSON,0.1.0,708,1,2025-07-29T17:48:02.465967
 MoonIDNA,ZSeanYves/MoonIDNA,0.1.0,12162,1,2025-12-26T13:16:31.442658
 moonjinja,ZSeanYves/moonjinja,0.1.1,2137,1,2026-01-03T11:08:55.614509
@@ -1345,11 +1346,11 @@ postgresx,kaashyapan/postgresx,0.1.0,1096,1,2026-06-13T09:30:50.016438
 uri,kaashyapan/uri,0.1.2,3473,1,2026-06-14T09:28:58.166499
 tqdmoon,GeneWang1226/tqdmoon,0.1.1,541,2,2026-06-01T14:03:12.860444
 moonpost,MaoDingA/moonpost,0.2.0,16080,11,2026-06-28T07:31:19.701126
-aitne,Arcelyth/aitne,0.4.0,8780,5,2026-06-29T15:37:23.468812
+aitne,Arcelyth/aitne,0.4.3,9366,6,2026-06-30T17:03:01.172985
 html_escape,Arcelyth/html_escape,0.3.3,3021,2,2026-06-19T14:56:11.575520
 cog_complex,pocket7878/cog_complex,0.1.0,1552,2,2026-06-19T04:31:22.603819
 decimal,DzmingLi/decimal,0.2.2,6083,1,2026-06-04T10:14:18.253216
-rapidhash,DzmingLi/rapidhash,0.1.0,306,1,2026-06-08T12:40:17.814497
+rapidhash,DzmingLi/rapidhash,0.1.4,427,1,2026-06-30T14:18:59.287949
 depsight,Tino-hue/depsight,0.5.1,10029,9,2026-06-05T14:05:12.024010
 base64,kujirahand/base64,0.1.1,239,2,2026-06-03T07:33:26.035245
 crc32,kujirahand/crc32,0.1.1,229,2,2026-06-03T07:39:28.846489
@@ -1370,6 +1371,7 @@ MoonECAT,mokomoking2501/MoonECAT,0.1.0,78464,15,2026-06-23T03:31:11.827684
 MoonEvidence,starlittle/MoonEvidence,0.3.0,5955,9,2026-06-18T11:47:41.503586
 agent-telemetry,cybershang/agent-telemetry,0.1.4,2019,1,2026-06-24T14:11:37.182798
 hex_editor,R00TK17/hex_editor,0.1.1,7916,3,2026-06-22T07:49:42.428119
+jsonpath,caassien/jsonpath,0.1.0,436,3,2026-06-30T14:44:42.575148
 moonbio,caassien/moonbio,0.1.0,525,6,2026-06-21T15:30:20.817966
 abyssal_chord,sssssurf/abyssal_chord,0.1.0,5503,2,2026-06-22T07:55:06.537295
 moonbit_promptkit,co63oc/moonbit_promptkit,0.1.2,11297,70,2026-06-25T22:16:46.436736
