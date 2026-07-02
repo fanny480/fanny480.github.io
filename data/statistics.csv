@@ -931,9 +931,9 @@ moon_skrifa,Milky2018/moon_skrifa,0.1.8,47218,3,2026-06-10T06:13:07.468574
 moon_swash,Milky2018/moon_swash,0.1.10,66459,7,2026-06-10T07:26:15.260702
 moon_taffy,Milky2018/moon_taffy,0.5.2,61793,8,2026-06-10T07:07:21.717374
 moon_wesl,Milky2018/moon_wesl,0.1.2,16792,1,2026-04-16T08:22:51.885053
-moon_wgsl,Milky2018/moon_wgsl,0.15.0,7740,1,2026-06-13T04:25:45.317242
-moon_wgsl_naga,Milky2018/moon_wgsl_naga,0.15.0,19164,1,2026-06-13T04:24:56.626269
-moon_wgsl_naga_oil,Milky2018/moon_wgsl_naga_oil,0.15.0,16543,9,2026-06-13T04:25:23.031592
+moon_wgsl,Milky2018/moon_wgsl,0.15.1,7740,1,2026-07-02T12:08:42.556906
+moon_wgsl_naga,Milky2018/moon_wgsl_naga,0.15.1,19363,1,2026-07-02T12:08:28.030606
+moon_wgsl_naga_oil,Milky2018/moon_wgsl_naga_oil,0.15.1,18273,9,2026-07-02T12:08:35.454376
 moon_yazi,Milky2018/moon_yazi,0.1.3,3568,1,2026-06-10T06:11:29.481624
 moon_zeno,Milky2018/moon_zeno,0.1.3,6261,1,2026-06-10T06:11:15.128083
 mproc_examples,Milky2018/mproc_examples,0.1.0,69,1,2026-05-28T05:19:29.489497
@@ -958,7 +958,7 @@ sysinfo,Milky2018/sysinfo,0.1.2,6510,1,2026-04-10T01:34:25.959659
 toolkit,Milky2018/toolkit,0.1.4,28,1,2025-06-22T10:41:47.432821
 wasmoon,Milky2018/wasmoon,0.6.4,236903,46,2026-05-06T05:11:13.386352
 wgpu_mbt,Milky2018/wgpu_mbt,0.14.8,45202,10,2026-07-02T08:30:42.534203
-wgsl,Milky2018/wgsl,0.15.0,71081,8,2026-06-13T04:24:20.203308
+wgsl,Milky2018/wgsl,0.15.1,71877,8,2026-07-02T12:08:20.484371
 window,Milky2018/window,0.5.1,21708,13,2026-05-19T05:24:05.187287
 xml,Milky2018/xml,0.2.0,12989,1,2026-01-20T03:06:38.745263
 zstd,Milky2018/zstd,0.1.1,41283,1,2026-06-10T06:13:35.537358
@@ -1277,7 +1277,7 @@ flow-like-wasm-sdk,felix-schultz/flow-like-wasm-sdk,0.1.0,1659,1,2026-02-20T12:0
 lepusa,vectie/lepusa,0.1.0,76521,37,2026-06-28T07:47:59.064504
 moonbook,vectie/moonbook,0.1.0,15689,12,2026-04-13T13:56:27.683104
 moonclaw,vectie/moonclaw,0.1.2,254457,113,2026-04-13T13:56:18.768418
-moonlib,vectie/moonlib,0.1.5,16961,20,2026-07-02T08:05:53.912936
+moonlib,vectie/moonlib,0.1.7,4122,10,2026-07-02T13:02:48.090752
 moonzip,ivgtr/moonzip,0.2.4,12712,13,2026-02-27T09:48:41.298945
 jse,MarchLiu/jse,0.2.4,2227,2,2026-04-30T03:20:45.613687
 grapheme,kawaz/grapheme,0.10.4,657,1,2026-06-26T14:16:31.434934
@@ -1326,7 +1326,7 @@ vibe-map,eanzhao/vibe-map,0.7.2,11664,3,2026-06-03T08:45:13.723849
 moonbash,Haoxincode/moonbash,0.1.0,45029,10,2026-04-18T09:44:17.228016
 loci,zploc/loci,0.1.0,31491,20,2026-04-28T12:34:55.124255
 BitLogger,Nanaloveyuki/BitLogger,0.6.0,17974,13,2026-06-27T02:50:13.778521
-feed_gen,tkancf/feed_gen,0.2.0,4497,2,2026-06-28T15:10:45.231231
+feed_gen,tkancf/feed_gen,0.3.0,4890,2,2026-07-02T13:19:02.781960
 moonbit_version_cli,0xA672/moonbit_version_cli,0.10.0,388,2,2026-05-26T05:34:08.695549
 moonver,0xA672/moonver,0.1.0,212,2,2026-05-25T22:46:54.875067
 moonwasm_probe,0xA672/moonwasm_probe,0.10.0,313,2,2026-05-26T05:33:49.546461
@@ -1373,7 +1373,7 @@ examine,NiHao124538/examine,0.1.0,110,2,2026-06-13T08:44:18.445445
 mooncharts,Xpeng/mooncharts,0.3.0,1845,3,2026-06-19T01:49:36.772373
 MoonECAT,mokomoking2501/MoonECAT,0.1.0,78464,15,2026-06-23T03:31:11.827684
 MoonEvidence,starlittle/MoonEvidence,0.3.0,5955,9,2026-06-18T11:47:41.503586
-agent-telemetry,cybershang/agent-telemetry,0.1.4,2019,1,2026-06-24T14:11:37.182798
+agent-telemetry,cybershang/agent-telemetry,0.1.6,2371,1,2026-07-02T12:55:23.679059
 hex_editor,R00TK17/hex_editor,0.1.1,7916,3,2026-06-22T07:49:42.428119
 jsonpath,caassien/jsonpath,0.1.0,436,3,2026-06-30T14:44:42.575148
 moonbio,caassien/moonbio,0.1.0,525,6,2026-06-21T15:30:20.817966
@@ -1381,9 +1381,10 @@ abyssal_chord,sssssurf/abyssal_chord,0.1.0,5503,2,2026-06-22T07:55:06.537295
 moonbit_promptkit,co63oc/moonbit_promptkit,0.1.2,11297,70,2026-06-25T22:16:46.436736
 moonlimit,RunnerQuan/moonlimit,0.1.0,5285,2,2026-06-25T10:26:42.239340
 moonjsonpath,Freesia666/moonjsonpath,0.1.0,7747,2,2026-06-25T10:32:57.897700
-image,shunge/image,0.1.0,55176,1,2026-06-25T12:29:43.706304
+image,shunge/image,0.1.1,55176,1,2026-07-02T10:57:01.001268
 mjwt,RabitLogic/mjwt,0.1.0,2821,2,2026-06-26T14:25:08.392899
 rope,Teddy-Yangjiale/rope,0.1.0,1189,2,2026-06-26T16:56:04.134649
 moonflowgraph,AlexenderSokolov/moonflowgraph,0.1.0,1198,2,2026-06-28T04:02:08.130947
 moonchart,JunJunTnT/moonchart,0.1.0,3183,8,2026-06-29T06:36:55.121711
 moon-csv-lite,clhhhhh/moon-csv-lite,0.1.0,9897,8,2026-07-01T01:48:54.851672
+moondockit,Estrella-11/moondockit,0.1.0,3563,3,2026-07-02T11:31:35.305056
