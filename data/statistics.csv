@@ -538,6 +538,7 @@ weatherquery,oboard/weatherquery,0.1.1,81,1,2025-06-23T12:05:55.596048
 schema,YumeCross/schema,0.4.3,1721,2,2024-11-03T04:15:53.128825
 b2,gmlewis/b2,0.34.30,568,1,2026-03-31T21:51:50.109081
 base64,gmlewis/base64,0.16.10,985,2,2026-05-24T02:28:45.710974
+blender,gmlewis/blender,0.1.0,640,1,2026-07-03T17:01:58.402397
 crc32,gmlewis/crc32,0.8.17,209,1,2026-05-25T01:59:46.508018
 flate,gmlewis/flate,0.36.9,4337,3,2026-06-09T20:27:44.724725
 fonts,gmlewis/fonts,0.19.11,15162,20,2026-06-09T20:46:49.270322
@@ -576,6 +577,9 @@ jsonutil,gmlewis/jsonutil,0.24.0,310,1,2024-08-20T13:23:23.993256
 md5,gmlewis/md5,0.19.33,422,1,2026-05-25T02:08:36.195062
 modus,gmlewis/modus,0.16.5,17723,74,2025-01-18T01:23:10.174077
 moonbit-pdk,gmlewis/moonbit-pdk,0.47.27,1224,12,2026-05-25T02:03:11.788675
+picogk,gmlewis/picogk,0.1.0,2006,1,2026-07-03T17:02:12.453792
+picogkffi,gmlewis/picogkffi,0.1.0,4412,2,2026-07-03T17:02:20.926178
+picogkshapes,gmlewis/picogkshapes,0.1.0,2046,1,2026-07-03T17:03:57.234617
 sha1,gmlewis/sha1,0.12.9,422,1,2026-06-09T20:28:31.721488
 sha256,gmlewis/sha256,0.17.31,516,1,2026-05-25T02:09:38.072157
 spin-moonbit-sdk,gmlewis/spin-moonbit-sdk,0.54.14,13739,46,2026-03-31T21:49:08.383898
@@ -647,7 +651,7 @@ template,justjavac/template,0.1.1,317,1,2026-06-07T12:55:52.871566
 template_codegen,justjavac/template_codegen,0.1.3,1470,3,2026-06-29T08:09:32.200470
 template_examples,justjavac/template_examples,0.1.1,427,4,2026-06-07T12:56:36.210518
 terminal_size,justjavac/terminal_size,0.1.5,346,2,2026-06-10T05:54:56.136855
-tray,justjavac/tray,0.1.6,873,5,2026-06-29T01:43:58.390907
+tray,justjavac/tray,0.1.7,1854,7,2026-07-03T13:24:57.693515
 tray-examples,justjavac/tray-examples,0.1.1,201,4,2026-06-29T08:09:48.827359
 ttl,justjavac/ttl,0.1.1,511,2,2026-06-10T05:59:56.605041
 walkdir,justjavac/walkdir,0.1.7,467,4,2026-06-29T08:09:59.431817
@@ -978,8 +982,8 @@ btree,dowdiness/btree,0.1.0,4422,1,2026-04-24T12:18:36.372333
 event-graph-walker,dowdiness/event-graph-walker,0.2.0,23663,12,2026-05-06T13:58:44.771522
 ffi_c,dowdiness/ffi_c,0.1.1,1632,2,2025-10-24T13:55:18.091686
 graphviz,dowdiness/graphviz,0.1.0,4695,5,2026-04-21T13:41:19.354333
-incr,dowdiness/incr,0.12.0,28026,9,2026-07-01T11:11:45.455255
-js_engine,dowdiness/js_engine,0.3.0,118289,27,2026-06-10T11:37:14.619369
+incr,dowdiness/incr,0.13.0,27717,9,2026-07-03T15:58:52.234121
+js_engine,dowdiness/js_engine,0.4.0,131271,31,2026-07-03T12:48:42.040378
 margs,dowdiness/margs,0.1.2,4638,2,2026-02-16T06:41:24.474228
 moondsp,dowdiness/moondsp,0.5.1,42430,12,2026-05-20T12:01:23.723306
 order-tree,dowdiness/order-tree,0.1.1,2106,1,2026-06-23T12:33:34.039284
@@ -1346,7 +1350,7 @@ clipboard,mst-mkt/clipboard,0.1.1,1446,1,2026-05-24T19:43:53.652236
 moon-pptx,t-ujiie-g/moon-pptx,0.5.3,59837,16,2026-06-20T01:08:45.923033
 skir-client,gepheum/skir-client,0.1.1,4536,1,2026-05-26T22:37:39.385583
 skir-client-async,gepheum/skir-client-async,0.1.1,42256,50,2026-05-26T23:47:49.635738
-MoonFrame,ihb2032/MoonFrame,0.5.2,34917,16,2026-06-28T08:15:13.004380
+MoonFrame,ihb2032/MoonFrame,0.5.3,36630,16,2026-07-03T13:31:17.648013
 mold,robinfang/mold,0.3.0,3781,11,2026-06-12T05:49:04.397170
 postgresx,kaashyapan/postgresx,0.1.0,1096,1,2026-06-13T09:30:50.016438
 uri,kaashyapan/uri,0.1.2,3473,1,2026-06-14T09:28:58.166499
@@ -1373,7 +1377,7 @@ aho-corasick,helios-house/aho-corasick,0.4.0,780,1,2026-06-14T00:26:44.913016
 valence,helios-house/valence,0.2.0,2357,1,2026-06-30T09:21:35.603856
 moonbit-pathfinding,Suquster/moonbit-pathfinding,0.0.3,11574,20,2026-06-10T14:53:07.409716
 examine,NiHao124538/examine,0.1.0,110,2,2026-06-13T08:44:18.445445
-mooncharts,Xpeng/mooncharts,0.3.0,1845,3,2026-06-19T01:49:36.772373
+mooncharts,Xpeng/mooncharts,0.5.0,2802,3,2026-07-03T16:05:13.332947
 MoonECAT,mokomoking2501/MoonECAT,0.1.0,78464,15,2026-06-23T03:31:11.827684
 MoonEvidence,starlittle/MoonEvidence,0.3.0,5955,9,2026-06-18T11:47:41.503586
 agent-telemetry,cybershang/agent-telemetry,0.1.6,2371,1,2026-07-02T12:55:23.679059
