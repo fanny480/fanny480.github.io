@@ -1179,7 +1179,7 @@ ssmp,nodex/ssmp,0.1.1,109,1,2025-09-20T03:54:41.345643
 mopress,himeno/mopress,0.4.0,7421,9,2026-07-11T17:11:28.980270
 reactive,himeno/reactive,0.1.2,569,1,2026-01-02T07:00:03.858809
 test,himeno/test,0.1.0,36,1,2026-07-09T03:03:50.322799
-moon_guard,chenzehaoo/moon_guard,0.1.4,4128,9,2026-07-12T15:37:26.258765
+moon_guard,chenzehaoo/moon_guard,0.1.9,19729,18,2026-07-12T17:11:08.799265
 moonbit_zstd,Ronlands/moonbit_zstd,0.1.2,13701,10,2026-03-04T11:57:03.118872
 ttf_parser_moonbit,Ronlands/ttf_parser_moonbit,0.1.1,1918,8,2025-10-27T13:52:01.643099
 qt,KeqingMoe/qt,0.5.2,16574,3,2026-04-18T21:35:58.353101
@@ -1428,7 +1428,7 @@ MoonFrame,ihb2032/MoonFrame,0.5.8,37836,16,2026-07-10T07:31:41.023882
 mold,robinfang/mold,0.3.0,3781,11,2026-06-12T05:49:04.397170
 postgresx,kaashyapan/postgresx,0.1.0,1096,1,2026-06-13T09:30:50.016438
 uri,kaashyapan/uri,0.1.2,3473,1,2026-06-14T09:28:58.166499
-tqdmoon,GeneWang1226/tqdmoon,0.1.2,1078,2,2026-07-08T06:52:15.232406
+tqdmoon,GeneWang1226/tqdmoon,0.2.0,1190,3,2026-07-12T19:23:17.699530
 moonpost,MaoDingA/moonpost,0.2.1,16868,12,2026-07-07T07:00:16.222092
 AgriDroneSwarm,liushiman1222/AgriDroneSwarm,0.2.0,8322,1,2026-07-10T14:56:10.754504
 aitne,Arcelyth/aitne,0.4.10,13082,7,2026-07-10T15:04:58.501386
@@ -1450,14 +1450,19 @@ better-edit-tools-mcp,conglinyizhi/better-edit-tools-mcp,0.1.0,9720,13,2026-06-2
 moon-embed,conglinyizhi/moon-embed,0.1.2,356,2,2026-06-09T14:57:37.441372
 aho-corasick,helios-house/aho-corasick,0.4.0,780,1,2026-06-14T00:26:44.913016
 valence,helios-house/valence,0.2.1,2419,1,2026-07-06T00:46:12.719692
-moonbit-pathfinding,Suquster/moonbit-pathfinding,0.0.5,155337,73,2026-07-07T15:59:29.506924
+moonbit-pathfinding,Suquster/moonbit-pathfinding,0.1.0,179640,54,2026-07-12T17:51:14.941652
 mb-secure-stream,ChenJiasen-123/mb-secure-stream,0.1.3,8512,10,2026-07-11T13:11:54.230114
 nestedtext,OrisGo/nestedtext,0.1.1,6924,2,2026-07-11T15:24:08.597158
 examine,NiHao124538/examine,0.1.0,110,2,2026-06-13T08:44:18.445445
 indexmap,aurasuisui/indexmap,0.3.2,5949,4,2026-07-12T14:23:41.506279
 mooncharts,Xpeng/mooncharts,0.8.0,5018,3,2026-07-07T15:27:23.230092
+concord,mokomoking2501/concord,0.1.0,1498,2,2026-07-12T16:10:47.466575
+fieldbus_core,mokomoking2501/fieldbus_core,0.1.0,18691,16,2026-07-12T17:09:04.782141
+isocontract,mokomoking2501/isocontract,0.1.0,2764,1,2026-07-12T15:57:49.446331
+isoproject,mokomoking2501/isoproject,0.1.0,40030,29,2026-07-12T17:10:15.949458
 lockwire,mokomoking2501/lockwire,0.1.0,75444,58,2026-07-12T14:56:20.152730
 MoonECAT,mokomoking2501/MoonECAT,0.2.0,79305,23,2026-07-12T15:04:44.367925
+profinet_master,mokomoking2501/profinet_master,0.1.0,25256,17,2026-07-12T16:41:51.304981
 MoonEvidence,starlittle/MoonEvidence,0.5.1,15148,14,2026-07-11T20:47:42.840485
 agent-o11y-demo,cybershang/agent-o11y-demo,0.1.1,2527,2,2026-07-08T03:24:31.826897
 agent-telemetry,cybershang/agent-telemetry,0.1.6,2371,1,2026-07-02T12:55:23.679059
@@ -1579,7 +1584,7 @@ moon_sfv,serene-WJ/moon_sfv,0.1.0,1063,2,2026-07-12T04:51:56.471201
 moongrad,lyjttio/moongrad,0.1.0,1407,2,2026-07-12T07:21:12.533241
 pixelate,PixelPoet/pixelate,0.1.3,5867,1,2026-07-12T07:48:29.302347
 moonguard,918154429/moonguard,0.2.0,9047,2,2026-07-12T07:52:31.521920
-moonmacro,faaaaaa3/moonmacro,0.1.2,2442,4,2026-07-12T13:40:05.746753
+moonmacro,faaaaaa3/moonmacro,0.1.3,2835,4,2026-07-12T15:44:07.407148
 moonfocus,zkazure/moonfocus,0.1.1,4684,7,2026-07-12T08:44:39.227211
 moonkv,wallll-wal6/moonkv,0.1.0,2315,2,2026-07-12T10:24:30.104091
 moonbin,hourizon/moonbin,0.1.0,1096,2,2026-07-12T10:08:15.999965
@@ -1589,3 +1594,7 @@ moonsic,hyl-star/moonsic,0.1.0,25224,27,2026-07-12T13:38:03.633581
 MoonMarkMind,Xiao-li-He/MoonMarkMind,0.1.0,30700,11,2026-07-12T14:12:17.179225
 moonslide,MYmodddd/moonslide,0.1.0,777,1,2026-07-12T14:22:52.399317
 moonverity,Wchwch777/moonverity,0.1.0,1593,5,2026-07-12T15:12:15.512146
+moontetris,youyong5/moontetris,0.1.0,749,1,2026-07-12T16:47:46.955195
+MoonTetris,youyong5/MoonTetris,0.1.0,749,1,2026-07-12T16:29:55.548908
+moonpath,Burnling-gx/moonpath,0.1.1,2131,2,2026-07-12T16:15:43.653944
+moon-schedule,100kkk/moon-schedule,0.1.0,785,2,2026-07-12T16:19:44.526736
