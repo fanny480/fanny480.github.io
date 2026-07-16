@@ -993,7 +993,7 @@ moonchor,Milky2018/moonchor,0.18.0,3803,13,2025-10-20T12:32:09.937594
 moon_cosmic,Milky2018/moon_cosmic,0.3.3,50219,8,2026-06-10T08:23:01.854395
 moon_cpal,Milky2018/moon_cpal,0.11.7,19044,19,2026-06-10T09:05:23.969045
 moon_dagre,Milky2018/moon_dagre,0.2.5,10424,1,2026-04-08T11:22:00.949120
-moon_elk,Milky2018/moon_elk,0.1.14,271139,39,2026-04-08T11:07:20.769130
+moon_elk,Milky2018/moon_elk,0.2.0,272461,48,2026-07-16T11:13:46.085338
 moonlight,Milky2018/moonlight,0.1.0,131,5,2025-05-13T07:11:58.243950
 moonplant,Milky2018/moonplant,0.3.1,858,2,2025-05-22T02:15:49.833416
 moon_rapier,Milky2018/moon_rapier,0.5.1,114601,14,2026-06-10T06:26:42.641522
@@ -1015,15 +1015,15 @@ pptz,Milky2018/pptz,0.7.1,19476,15,2026-07-10T02:19:08.362648
 pthread,Milky2018/pthread,0.1.0,1854,1,2026-01-04T05:16:35.814809
 pug,Milky2018/pug,0.1.1,10601,2,2026-01-28T04:54:01.285566
 regalloc,Milky2018/regalloc,0.2.0,7280,4,2026-07-14T05:42:12.297657
-selene,Milky2018/selene,0.35.0,63347,59,2026-06-11T08:08:31.422719
+selene,Milky2018/selene,0.36.0,64617,59,2026-07-16T08:38:57.679028
 selene-canvas,Milky2018/selene-canvas,0.20.1,591,1,2026-02-28T10:39:34.371961
 selene_editor,Milky2018/selene_editor,0.30.5,18896,9,2026-04-07T10:19:53.266415
-selene_editor_frontend,Milky2018/selene_editor_frontend,0.35.0,14601,4,2026-06-11T08:09:32.350576
-selene_editor_service,Milky2018/selene_editor_service,0.35.0,3047,2,2026-06-11T08:09:38.235221
-selene_editor_shared,Milky2018/selene_editor_shared,0.35.0,1295,2,2026-06-11T08:09:19.104070
-selene_raylib,Milky2018/selene_raylib,0.35.0,8515,6,2026-06-11T08:09:07.541322
+selene_editor_frontend,Milky2018/selene_editor_frontend,0.36.0,14601,4,2026-07-16T08:39:55.662728
+selene_editor_service,Milky2018/selene_editor_service,0.36.0,3047,2,2026-07-16T08:40:02.806542
+selene_editor_shared,Milky2018/selene_editor_shared,0.36.0,1295,2,2026-07-16T08:39:42.312126
+selene_raylib,Milky2018/selene_raylib,0.36.0,8545,6,2026-07-16T08:39:31.070403
 selene_tools,Milky2018/selene_tools,0.32.2,470,2,2026-04-14T07:40:10.083218
-selene_webgpu,Milky2018/selene_webgpu,0.35.0,10717,6,2026-06-11T08:08:51.321953
+selene_webgpu,Milky2018/selene_webgpu,0.36.0,10837,6,2026-07-16T08:39:16.963870
 slotmap,Milky2018/slotmap,0.1.2,3217,1,2026-05-08T09:18:03.970553
 sqlparser,Milky2018/sqlparser,0.5.0,14669,2,2025-11-27T10:09:29.250366
 svgdiff,Milky2018/svgdiff,0.5.13,37169,3,2026-07-16T02:23:57.444498
@@ -1221,7 +1221,7 @@ jsondiff,moonbit-community/jsondiff,0.1.2,1476,1,2026-03-23T10:56:58.033759
 meta-skill,moonbit-community/meta-skill,0.1.0,1366,1,2026-06-11T07:34:31.433430
 miniio,moonbit-community/miniio,0.2.1,3557,10,2026-06-12T08:04:05.077301
 moon_cpal,moonbit-community/moon_cpal,0.11.6,19042,19,2026-06-08T07:29:12.449808
-moon_dagre,moonbit-community/moon_dagre,0.3.0,11487,4,2026-07-16T07:47:33.694526
+moon_dagre,moonbit-community/moon_dagre,0.3.1,11649,4,2026-07-16T09:36:43.143033
 moongrep,moonbit-community/moongrep,0.1.15,29552,15,2026-07-15T09:23:28.423397
 moongrep-skill,moonbit-community/moongrep-skill,0.1.0,1095,1,2026-01-25T13:17:34.643090
 NyaCSV,moonbit-community/NyaCSV,0.3.3,1196,1,2026-05-03T09:57:32.237871
@@ -1257,7 +1257,7 @@ toml_parser,maria/toml_parser,0.1.0,1018,2,2025-11-18T12:36:30.481339
 miao,kalculos/miao,0.1.0-M2,11498,12,2025-11-24T13:21:20.778285
 moon_expr,sombozone/moon_expr,0.1.0,4004,7,2025-12-02T13:29:54.305420
 brainfuck,nuskey8/brainfuck,0.1.2,180,2,2025-12-05T06:02:35.808609
-c,nuskey8/c,0.1.0,1608,1,2026-07-15T13:12:00.536888
+c,nuskey8/c,0.3.0,2316,1,2026-07-16T15:51:45.265699
 lisp,nuskey8/lisp,0.1.4,389,2,2025-12-21T16:20:24.135992
 oneshot,nuskey8/oneshot,0.1.0,136,2,2025-12-22T16:50:23.641313
 test_moon,cgx027/test_moon,0.1.0,76,2,2025-12-08T00:29:37.621354
@@ -1442,7 +1442,7 @@ tqdmoon,GeneWang1226/tqdmoon,0.2.0,1190,3,2026-07-12T19:23:17.699530
 moonpost,MaoDingA/moonpost,0.2.1,16868,12,2026-07-07T07:00:16.222092
 AgriDroneSwarm,liushiman1222/AgriDroneSwarm,0.2.0,8322,1,2026-07-10T14:56:10.754504
 aitne,Arcelyth/aitne,0.4.10,13082,7,2026-07-10T15:04:58.501386
-html_escape,Arcelyth/html_escape,0.3.3,3021,2,2026-06-19T14:56:11.575520
+html_escape,Arcelyth/html_escape,0.3.4,3072,2,2026-07-16T16:04:12.143772
 cog_complex,pocket7878/cog_complex,0.1.0,1552,2,2026-06-19T04:31:22.603819
 clap,DzmingLi/clap,0.2.8,2729,1,2026-07-01T08:44:12.054819
 decimal,DzmingLi/decimal,0.2.2,6083,1,2026-06-04T10:14:18.253216
@@ -1615,3 +1615,4 @@ moontls-parser,yhsrtty/moontls-parser,0.1.0,1285,2,2026-07-13T09:56:04.057873
 moonyara,Hjyyutr/moonyara,0.1.1,4295,3,2026-07-13T11:16:32.501231
 moonnlp,ppyq882/moonnlp,0.1.1,3812,4,2026-07-13T13:56:50.070252
 minitpl,joanna/minitpl,0.1.2,512,5,2026-07-16T03:19:54.478118
+moonbit-texteditor,lexchb/moonbit-texteditor,0.1.0,3502,1,2026-07-16T12:27:11.289357
