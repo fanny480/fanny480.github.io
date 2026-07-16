@@ -1257,7 +1257,7 @@ toml_parser,maria/toml_parser,0.1.0,1018,2,2025-11-18T12:36:30.481339
 miao,kalculos/miao,0.1.0-M2,11498,12,2025-11-24T13:21:20.778285
 moon_expr,sombozone/moon_expr,0.1.0,4004,7,2025-12-02T13:29:54.305420
 brainfuck,nuskey8/brainfuck,0.1.2,180,2,2025-12-05T06:02:35.808609
-c,nuskey8/c,0.3.0,2316,1,2026-07-16T15:51:45.265699
+c,nuskey8/c,0.3.1,2117,1,2026-07-16T17:16:21.522241
 lisp,nuskey8/lisp,0.1.4,389,2,2025-12-21T16:20:24.135992
 oneshot,nuskey8/oneshot,0.1.0,136,2,2025-12-22T16:50:23.641313
 test_moon,cgx027/test_moon,0.1.0,76,2,2025-12-08T00:29:37.621354
@@ -1500,7 +1500,7 @@ moon-collections,Hhsqoo/moon-collections,0.2.0,2337,8,2026-07-16T03:12:18.557835
 MoonParse,Ljh684/MoonParse,0.1.3,2881,2,2026-07-06T10:18:42.824051
 moonmarkdown,oilleelssq-wq/moonmarkdown,0.1.2,4312,9,2026-07-07T14:34:45.728347
 MoonChartSVG,Mitsuha11zz/MoonChartSVG,0.1.5,5332,2,2026-07-10T11:44:57.643900
-MoonLogTrace,CCllff-jpg/MoonLogTrace,0.1.1,2347,2,2026-07-05T15:14:50.364228
+MoonLogTrace,CCllff-jpg/MoonLogTrace,0.1.2,3499,2,2026-07-16T17:17:01.681348
 mooncollections,Zongzuixi114514/mooncollections,0.1.4,4660,13,2026-07-10T12:07:51.928225
 stencil,LL124-Arch/stencil,0.1.1,1057,2,2026-07-11T07:46:14.865194
 moongraph,wedarp/moongraph,0.1.0,978,1,2026-07-05T13:30:32.108925
@@ -1616,3 +1616,4 @@ moonyara,Hjyyutr/moonyara,0.1.1,4295,3,2026-07-13T11:16:32.501231
 moonnlp,ppyq882/moonnlp,0.1.1,3812,4,2026-07-13T13:56:50.070252
 minitpl,joanna/minitpl,0.1.2,512,5,2026-07-16T03:19:54.478118
 moonbit-texteditor,lexchb/moonbit-texteditor,0.1.0,3502,1,2026-07-16T12:27:11.289357
+yamlscript,ingydotnet/yamlscript,0.2.28,92,1,2026-07-16T19:14:59.727315
