@@ -1075,7 +1075,7 @@ jieba,colmugx/jieba,0.1.1,386261,3,2026-06-16T08:47:13.683804
 mcp,colmugx/mcp,0.14.0,7989,10,2026-06-16T11:59:29.627601
 ofd,colmugx/ofd,0.1.1,2520,4,2026-07-08T23:51:25.222349
 ofdx,colmugx/ofdx,0.1.0,166,1,2026-07-08T23:54:23.298137
-posoco,colmugx/posoco,0.4.3,7581,1,2026-07-18T09:35:37.562606
+posoco,colmugx/posoco,0.4.4,15433,1,2026-07-19T03:29:08.199516
 reader,colmugx/reader,0.3.0,228,1,2026-01-12T02:42:21.632489
 sqlite3,colmugx/sqlite3,0.2.0,832,2,2026-05-11T13:19:48.846579
 sqlite-vec,colmugx/sqlite-vec,0.2.4,983,3,2026-05-19T07:21:49.691935
@@ -1633,3 +1633,4 @@ toml,hnlyxiaobing/toml,0.4.2,12832,3,2026-07-17T06:48:42.796764
 moonwatermarkkit,Oyc996/moonwatermarkkit,0.2.0,722,2,2026-07-18T03:21:56.052217
 moonquantilekit,Gym-789/moonquantilekit,0.2.0,620,2,2026-07-18T15:02:28.049336
 moondriftkit,liangjx987/moondriftkit,0.2.0,591,2,2026-07-18T15:29:26.579527
+moontracekit,SCL-NN/moontracekit,0.2.0,722,2,2026-07-18T21:49:39.107069
