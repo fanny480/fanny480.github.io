@@ -86,7 +86,7 @@ taskflow,bobzhang/taskflow,0.3.2,12928,5,2026-04-04T13:29:04.762492
 testa,bobzhang/testa,0.1.0,16,2,2024-01-01T00:00:00
 testb,bobzhang/testb,0.1.0,24,2,2024-01-01T00:00:00
 todo-list,bobzhang/todo-list,0.3.2,1017,4,2026-04-04T13:29:06.498749
-toml,bobzhang/toml,0.4.1,24640,18,2026-06-07T00:16:23.896126
+toml,bobzhang/toml,0.4.2,15532,7,2026-07-19T11:47:32.816499
 unmarshal,bobzhang/unmarshal,0.3.0,10813,6,2026-06-26T04:55:54.941279
 uri,bobzhang/uri,0.1.0,606,1,2025-08-17T09:07:17.032959
 uuidm,bobzhang/uuidm,0.1.2,2294,1,2026-06-03T10:27:38.878292
@@ -1271,7 +1271,7 @@ oneshot,nuskey8/oneshot,0.1.0,136,2,2025-12-22T16:50:23.641313
 raylib,nuskey8/raylib,0.1.0,10854,2,2026-07-18T11:04:00.229991
 test_moon,cgx027/test_moon,0.1.0,76,2,2025-12-08T00:29:37.621354
 libs,jaredzhou/libs,0.1.1,2534,3,2026-06-21T03:05:33.716497
-mooncedar,jaredzhou/mooncedar,0.1.4,11296,4,2026-07-19T04:22:58.877284
+mooncedar,jaredzhou/mooncedar,0.1.5,11318,4,2026-07-19T13:30:25.492184
 moonpg,jaredzhou/moonpg,0.5.1,10930,2,2026-07-17T04:33:55.165610
 pony,jaredzhou/pony,0.3.0,5102,3,2026-07-18T01:46:54.095753
 x,jaredzhou/x,0.1.0,2700,2,2025-12-28T05:59:31.965460
@@ -1425,7 +1425,7 @@ pi-moonbit,eanzhao/pi-moonbit,0.1.5,34323,9,2026-04-18T18:22:49.645570
 vibe-map,eanzhao/vibe-map,0.7.2,11664,3,2026-06-03T08:45:13.723849
 moonbash,Haoxincode/moonbash,0.1.0,45029,10,2026-04-18T09:44:17.228016
 loci,zploc/loci,0.1.0,31491,20,2026-04-28T12:34:55.124255
-BitLogger,Nanaloveyuki/BitLogger,0.7.1,19785,22,2026-07-17T11:20:08.242254
+BitLogger,Nanaloveyuki/BitLogger,0.7.3,20139,23,2026-07-19T09:12:19.746518
 feed_gen,tkancf/feed_gen,0.3.0,4890,2,2026-07-02T13:19:02.781960
 moonbit_version_cli,0xA672/moonbit_version_cli,0.10.0,388,2,2026-05-26T05:34:08.695549
 moonver,0xA672/moonver,0.1.0,212,2,2026-05-25T22:46:54.875067
@@ -1494,7 +1494,7 @@ moonlimit,RunnerQuan/moonlimit,0.1.1,5632,2,2026-07-08T04:49:44.774601
 moonjsonpath,Freesia666/moonjsonpath,0.1.1,7747,2,2026-07-09T14:46:29.047633
 moonbit-CryptoAssert,Kali-Leo/moonbit-CryptoAssert,0.1.0,3763,3,2026-07-11T18:51:23.049744
 image,shunge/image,0.1.4,71347,1,2026-07-10T14:11:24.143901
-mbit,RabitLogic/mbit,0.1.0,9562,2,2026-07-19T08:27:24.605886
+mbit,RabitLogic/mbit,0.1.1,9562,2,2026-07-19T08:58:46.220269
 mjwt,RabitLogic/mjwt,0.2.0,3049,1,2026-07-16T00:02:16.546328
 rope,Teddy-Yangjiale/rope,0.1.0,1189,2,2026-06-26T16:56:04.134649
 moonflowgraph,AlexenderSokolov/moonflowgraph,0.3.0,4233,5,2026-07-13T12:04:42.850567
@@ -1593,7 +1593,7 @@ moonschema,cosgammmmma/moonschema,0.1.1,355,1,2026-07-11T08:29:43.794014
 mooncollider,uiwcvb/mooncollider,0.2.1,5718,9,2026-07-17T07:48:27.229100
 moon-audit,minie135/moon-audit,0.2.0,6679,2,2026-07-14T02:49:43.272679
 der,lindividual/der,0.2.1,510,2,2026-07-11T14:01:20.238266
-mooncry,cc06b/mooncry,0.2.0,4569,3,2026-07-19T08:28:29.596337
+mooncry,cc06b/mooncry,0.2.4,5779,3,2026-07-19T13:18:02.114379
 MoonDocCheck,gywcs101/MoonDocCheck,0.1.0,3661,5,2026-07-11T14:04:51.665097
 moon_l10n,Zhouz-z/moon_l10n,0.1.0,793,2,2026-07-11T15:10:16.310704
 moon_doctor,sheldonshi115/moon_doctor,0.3.0,5319,7,2026-07-11T18:14:37.366162
