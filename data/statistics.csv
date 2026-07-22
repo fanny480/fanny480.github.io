@@ -643,9 +643,9 @@ step,gmlewis/step,0.1.15,26008,52,2026-07-18T12:49:43.858355
 zlib,gmlewis/zlib,0.21.10,720,1,2026-07-17T23:59:22.213936
 onebit-tui,Frank-III/onebit-tui,0.1.3,8004,7,2025-10-17T19:59:51.906075
 onebit-yoga,Frank-III/onebit-yoga,0.2.6,2491,4,2025-10-17T19:51:14.148025
-selene,KKKIIO/selene,0.36.1,65345,60,2026-07-17T17:36:52.933686
-selene_raylib,KKKIIO/selene_raylib,0.36.1,8543,6,2026-07-17T17:37:21.868006
-selene_webgpu,KKKIIO/selene_webgpu,0.36.1,10835,6,2026-07-17T17:37:10.802883
+selene,KKKIIO/selene,0.37.2,65938,60,2026-07-22T15:02:05.704743
+selene_raylib,KKKIIO/selene_raylib,0.37.2,8485,6,2026-07-22T15:02:40.451021
+selene_webgpu,KKKIIO/selene_webgpu,0.37.2,10806,6,2026-07-22T15:02:27.895471
 js,moonbit-js-ffi/js,0.2.0,1160,2,2024-06-13T15:41:51.834985
 easy,enjoecn/easy,0.1.0,93,3,2024-06-25T04:39:31.476831
 gb,enjoecn/gb,0.1.1,390,2,2024-07-19T07:34:06.699464
@@ -698,9 +698,9 @@ microphone,justjavac/microphone,0.1.3,618,3,2026-06-29T01:43:29.233251
 notification,justjavac/notification,0.1.5,711,1,2026-07-22T06:26:32.389167
 num_cpus,justjavac/num_cpus,0.1.9,273,2,2026-06-10T05:46:03.480191
 platform,justjavac/platform,0.1.2,559,2,2026-06-10T05:46:40.542583
-proton,justjavac/proton,0.1.11,11512,9,2026-07-20T00:03:23.938252
-proton_cli,justjavac/proton_cli,0.1.8,17064,8,2026-07-20T00:03:55.182099
-proton_config,justjavac/proton_config,0.1.5,1627,1,2026-07-19T15:15:53.471191
+proton,justjavac/proton,0.1.12,11743,9,2026-07-22T16:17:23.265831
+proton_cli,justjavac/proton_cli,0.1.9,17094,8,2026-07-22T16:21:58.586071
+proton_config,justjavac/proton_config,0.1.6,1723,1,2026-07-22T16:13:40.557042
 proton_ext,justjavac/proton_ext,0.1.7,5890,13,2026-06-28T23:47:47.808827
 quickjs,justjavac/quickjs,0.1.4,1896,5,2026-06-10T05:51:24.654692
 replace_self,justjavac/replace_self,0.1.4,1168,2,2026-06-29T08:09:16.263983
@@ -1484,7 +1484,7 @@ moonbit-pathfinding,Suquster/moonbit-pathfinding,0.2.0,181493,71,2026-07-12T22:3
 mb-secure-stream,ChenJiasen-123/mb-secure-stream,0.1.3,8512,10,2026-07-11T13:11:54.230114
 nestedtext,OrisGo/nestedtext,0.1.1,6924,2,2026-07-11T15:24:08.597158
 examine,NiHao124538/examine,0.1.0,110,2,2026-06-13T08:44:18.445445
-indexmap,aurasuisui/indexmap,0.3.2,5949,4,2026-07-12T14:23:41.506279
+indexmap,aurasuisui/indexmap,0.3.3,6447,4,2026-07-22T15:26:06.303474
 mooncharts,Xpeng/mooncharts,0.8.0,5018,3,2026-07-07T15:27:23.230092
 concord,mokomoking2501/concord,0.1.0,1498,2,2026-07-12T16:10:47.466575
 fieldbus_core,mokomoking2501/fieldbus_core,0.1.0,18691,16,2026-07-12T17:09:04.782141
@@ -1537,6 +1537,7 @@ cbor,2515050242/cbor,0.1.1,777,2,2026-07-10T17:19:55.912935
 moon_bencode,2515050243qyf/moon_bencode,0.1.1,888,3,2026-07-12T14:21:14.869003
 moontemplate,Project2026-creator/moontemplate,0.2.0,3117,4,2026-07-05T14:53:58.927349
 cron_mbt,cxh04/cron_mbt,0.2.1,1144,2,2026-07-18T17:01:31.103305
+moon-cv-geometry,cxh04/moon-cv-geometry,0.1.0,1310,9,2026-07-22T14:36:59.075057
 moonfeaturegate,wccerty/moonfeaturegate,0.1.1,1165,2,2026-07-11T16:17:55.411673
 MoonSpectrum,chgttyyr/MoonSpectrum,0.1.0,849,2,2026-07-05T15:49:59.086880
 moonflagkit,q0w1ertyuiop/moonflagkit,0.2.0,1543,2,2026-07-12T13:38:54.030107
@@ -1576,6 +1577,7 @@ msdoc-viewer,XiaoChenxu/msdoc-viewer,0.1.1,14830,2,2026-07-08T02:29:33.512314
 petgraph,I3eg1nner/petgraph,0.1.0,6583,7,2026-07-07T16:12:37.498202
 moonbench,Han-Wentao/moonbench,0.3.0,7124,3,2026-07-15T05:31:49.686920
 moonbit-pixelkit,ttxiangshang/moonbit-pixelkit,0.2.0,2451,11,2026-07-18T06:39:47.168293
+moon-cv-geometry,python123-ops/moon-cv-geometry,0.1.0,1816,9,2026-07-22T16:47:28.149542
 moon-ray,Kai-Junhan/moon-ray,0.3.1,4345,2,2026-07-17T09:18:07.605728
 moon-sketch-kit,cauchyQ/moon-sketch-kit,0.1.0,4447,5,2026-07-08T01:45:31.622371
 moon-mustache,bellesz0611/moon-mustache,0.2.0,11292,16,2026-07-11T04:01:49.469012
@@ -1593,6 +1595,7 @@ raft-moonbit,Lfan-ke/raft-moonbit,0.5.0,26989,10,2026-07-11T10:11:00.664030
 template,lin2077-zeming/template,0.1.0,7375,4,2026-07-10T05:34:44.397828
 moonbit-csv,sikadi123/moonbit-csv,0.1.1,1954,8,2026-07-10T08:10:34.079533
 moonphaserkit,Ridge-Lab/moonphaserkit,0.3.0,5596,3,2026-07-10T13:51:25.000617
+moonwavkit,Ridge-Lab/moonwavkit,0.1.1,5055,3,2026-07-22T15:11:07.410406
 MoonBit-memory,Across2005/MoonBit-memory,0.1.1,1657,2,2026-07-12T07:57:53.212826
 moonsim,zlhahaha/moonsim,0.3.1,11792,19,2026-07-12T15:26:10.081707
 moon-pathplanning,NoEmotionYY/moon-pathplanning,0.1.0,8131,16,2026-07-10T18:07:13.634765
@@ -1615,6 +1618,7 @@ bio_seq,IvanAXu/bio_seq,0.1.0,10001,6,2026-07-11T19:39:03.471290
 BioSeqs,IvanAXu/BioSeqs,0.1.5,92577,103,2026-07-21T11:31:13.017389
 moon_diffusion_lab,hxiuzheng/moon_diffusion_lab,0.1.0,1922,7,2026-07-18T03:22:12.724452
 moon_sfv,serene-WJ/moon_sfv,0.1.0,1063,2,2026-07-12T04:51:56.471201
+moonsim,wcx789ll/moonsim,0.1.0,4395,14,2026-07-22T16:54:15.720065
 moongrad,lyjttio/moongrad,0.1.1,1700,2,2026-07-20T10:34:16.404459
 pixelate,PixelPoet/pixelate,0.1.3,5867,1,2026-07-12T07:48:29.302347
 moonguard,918154429/moonguard,0.2.0,9047,2,2026-07-12T07:52:31.521920
@@ -1633,10 +1637,11 @@ moontetris,youyong5/moontetris,0.1.0,749,1,2026-07-12T16:47:46.955195
 MoonTetris,youyong5/MoonTetris,0.1.0,749,1,2026-07-12T16:29:55.548908
 moonpath,Burnling-gx/moonpath,0.1.1,2131,2,2026-07-12T16:15:43.653944
 moon-schedule,100kkk/moon-schedule,0.1.0,785,2,2026-07-12T16:19:44.526736
-moonlabelkit,Zy789kl/moonlabelkit,0.1.0,1779,6,2026-07-13T09:20:09.842845
+moonlabelkit,Zy789kl/moonlabelkit,0.1.1,2038,7,2026-07-22T17:57:33.347740
 moontls-parser,yhsrtty/moontls-parser,0.1.1,6405,2,2026-07-20T10:22:00.442261
 moonyara,Hjyyutr/moonyara,0.1.2,4459,3,2026-07-18T04:45:55.587808
 moonnlp,ppyq882/moonnlp,0.2.0,4025,4,2026-07-20T09:23:03.198130
+moongeoroute,phjphj676/moongeoroute,0.1.0,2579,7,2026-07-22T15:57:24.607089
 minitpl,joanna/minitpl,0.1.2,512,5,2026-07-16T03:19:54.478118
 moonbit-texteditor,lexchb/moonbit-texteditor,0.1.0,3502,1,2026-07-16T12:27:11.289357
 yamlscript,ingydotnet/yamlscript,0.2.29,92,1,2026-07-20T19:14:57.035843
@@ -1650,5 +1655,5 @@ moondriftkit,liangjx987/moondriftkit,0.2.0,591,2,2026-07-18T15:29:26.579527
 moontracekit,SCL-NN/moontracekit,0.2.0,722,2,2026-07-18T21:49:39.107069
 MoonCRDTKit,ddd-1234d/MoonCRDTKit,0.2.0,1146,2,2026-07-19T23:53:05.418905
 pathforge,Deviaana/pathforge,0.1.0,1367,2,2026-07-20T07:44:56.526638
-tutuca,marianoguerra/tutuca,0.1.1,44890,23,2026-07-21T20:21:10.360494
-moon_api_guard,FidollarinLA/moon_api_guard,0.1.1,1922,2,2026-07-22T12:45:51.772558
+tutuca,marianoguerra/tutuca,0.2.0,46431,23,2026-07-22T15:32:49.724887
+moon_api_guard,FidollarinLA/moon_api_guard,0.1.2,2180,3,2026-07-22T15:33:37.996312
