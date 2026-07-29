@@ -657,6 +657,7 @@ step,gmlewis/step,0.1.15,26008,52,2026-07-18T12:49:43.858355
 zlib,gmlewis/zlib,0.21.10,720,1,2026-07-17T23:59:22.213936
 onebit-tui,Frank-III/onebit-tui,0.1.3,8004,7,2025-10-17T19:59:51.906075
 onebit-yoga,Frank-III/onebit-yoga,0.2.6,2491,4,2025-10-17T19:51:14.148025
+agconf,KKKIIO/agconf,0.1.0,865,2,2026-07-29T15:12:57.276314
 selene,KKKIIO/selene,0.37.5,79443,63,2026-07-29T09:09:41.536675
 selene_raylib,KKKIIO/selene_raylib,0.37.5,8940,6,2026-07-29T09:10:25.870546
 selene_webgpu,KKKIIO/selene_webgpu,0.37.5,11837,6,2026-07-29T09:10:17.165922
@@ -1513,6 +1514,7 @@ examine,NiHao124538/examine,0.1.0,110,2,2026-06-13T08:44:18.445445
 bimap,aurasuisui/bimap,0.1.0,3941,3,2026-07-24T02:01:42.370160
 indexmap,aurasuisui/indexmap,0.3.3,6447,4,2026-07-22T15:26:06.303474
 mooncharts,Xpeng/mooncharts,0.8.0,5018,3,2026-07-07T15:27:23.230092
+mooncov,Xpeng/mooncov,0.1.0,4889,2,2026-07-29T16:49:35.006600
 concord,mokomoking2501/concord,0.1.0,1498,2,2026-07-12T16:10:47.466575
 fieldbus_core,mokomoking2501/fieldbus_core,0.1.0,18691,16,2026-07-12T17:09:04.782141
 isocontract,mokomoking2501/isocontract,0.1.0,2764,1,2026-07-12T15:57:49.446331
@@ -1630,7 +1632,7 @@ moon-diff,yuzhiblue/moon-diff,0.2.2,4904,3,2026-07-09T06:07:11.062349
 moon_collections,wqbcs/moon_collections,0.2.4,9581,15,2026-07-10T02:24:34.511571
 basex,Lfan-ke/basex,0.2.0,1035,7,2026-07-26T19:18:45.028365
 moonapi,Lfan-ke/moonapi,0.6.2,6713,1,2026-07-29T06:55:32.748833
-moonasgi,Lfan-ke/moonasgi,0.6.1,3881,1,2026-07-29T05:22:34.556170
+moonasgi,Lfan-ke/moonasgi,0.7.0,4183,1,2026-07-29T19:19:18.844226
 mooncat,Lfan-ke/mooncat,0.6.2,2827,1,2026-07-29T06:58:19.906270
 moonctl,Lfan-ke/moonctl,0.6.1,6140,4,2026-07-29T05:37:27.953454
 moondb,Lfan-ke/moondb,0.1.4,1685,1,2026-07-29T05:39:45.247263
@@ -1661,7 +1663,7 @@ moonschema,cosgammmmma/moonschema,0.1.1,355,1,2026-07-11T08:29:43.794014
 mooncollider,uiwcvb/mooncollider,0.2.1,5718,9,2026-07-17T07:48:27.229100
 moon-audit,minie135/moon-audit,0.2.0,6679,2,2026-07-14T02:49:43.272679
 der,lindividual/der,0.2.1,510,2,2026-07-11T14:01:20.238266
-mooncry,cc06b/mooncry,0.9.0,9436,3,2026-07-29T14:22:44.561972
+mooncry,cc06b/mooncry,0.11.0,10224,3,2026-07-29T15:34:29.278050
 MoonDocCheck,gywcs101/MoonDocCheck,0.1.0,3661,5,2026-07-11T14:04:51.665097
 moon_l10n,Zhouz-z/moon_l10n,0.1.0,793,2,2026-07-11T15:10:16.310704
 moon_doctor,sheldonshi115/moon_doctor,0.3.0,5319,7,2026-07-11T18:14:37.366162
@@ -1716,7 +1718,7 @@ moontracekit,SCL-NN/moontracekit,0.2.0,722,2,2026-07-18T21:49:39.107069
 MoonCRDTKit,ddd-1234d/MoonCRDTKit,0.2.0,1146,2,2026-07-19T23:53:05.418905
 pathforge,Deviaana/pathforge,0.1.0,1367,2,2026-07-20T07:44:56.526638
 tailwindcss,marianoguerra/tailwindcss,0.2.0,15876,4,2026-07-25T13:04:42.047764
-tutuca,marianoguerra/tutuca,0.8.1,71942,23,2026-07-29T12:15:22.548676
+tutuca,marianoguerra/tutuca,0.9.0,71942,23,2026-07-29T16:33:11.752269
 moon_api_guard,FidollarinLA/moon_api_guard,0.5.3,4646,4,2026-07-24T16:52:24.376916
 moonbit-seqkit,clhhhhhh/moonbit-seqkit,0.1.0,5467,3,2026-07-23T07:37:13.015281
 moongridgym,zhaoyuanjuns/moongridgym,0.1.0,1031,2,2026-07-23T04:15:45.171845
@@ -1743,3 +1745,6 @@ moonbit-gffkit,wju-yuki111/moonbit-gffkit,0.1.0,5294,2,2026-07-29T08:58:01.87829
 moonlogfmt-lens,sqhyyy/moonlogfmt-lens,0.2.0,5609,6,2026-07-29T11:32:24.706049
 cidr-audit,BeiLaDuo/cidr-audit,0.1.0,4408,4,2026-07-29T12:49:27.438894
 robots-gate,2111950632/robots-gate,0.2.0,6269,6,2026-07-29T14:18:34.408182
+moongettext,YanFangNie/moongettext,0.1.0,4378,3,2026-07-29T17:24:44.176714
+moonopenmetrics,JYPeng487/moonopenmetrics,0.1.0,6014,2,2026-07-29T17:29:41.732583
+moon-multipart,Songyz002/moon-multipart,0.1.0,1728,2,2026-07-29T19:28:01.568269
