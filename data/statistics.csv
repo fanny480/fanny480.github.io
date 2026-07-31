@@ -1408,7 +1408,7 @@ flow-like-wasm-sdk,felix-schultz/flow-like-wasm-sdk,0.1.0,1659,1,2026-02-20T12:0
 lepusa,vectie/lepusa,0.1.4,77675,38,2026-07-21T09:01:01.591961
 moonbook,vectie/moonbook,0.1.0,15689,12,2026-04-13T13:56:27.683104
 moonclaw,vectie/moonclaw,0.1.2,254457,113,2026-04-13T13:56:18.768418
-moonlib,vectie/moonlib,0.1.18,10427,18,2026-07-31T00:21:33.329204
+moonlib,vectie/moonlib,0.1.19,12826,18,2026-07-31T18:13:09.066420
 moonzip,ivgtr/moonzip,0.2.4,12712,13,2026-02-27T09:48:41.298945
 jse,MarchLiu/jse,0.2.4,2227,2,2026-04-30T03:20:45.613687
 grapheme,kawaz/grapheme,0.10.4,657,1,2026-06-26T14:16:31.434934
@@ -1515,7 +1515,7 @@ mb-secure-stream,ChenJiasen-123/mb-secure-stream,0.1.3,8512,10,2026-07-11T13:11:
 nestedtext,OrisGo/nestedtext,0.1.1,6924,2,2026-07-11T15:24:08.597158
 examine,NiHao124538/examine,0.1.0,110,2,2026-06-13T08:44:18.445445
 bimap,aurasuisui/bimap,0.1.0,3941,3,2026-07-24T02:01:42.370160
-indexmap,aurasuisui/indexmap,0.3.3,6447,4,2026-07-22T15:26:06.303474
+indexmap,aurasuisui/indexmap,0.4.0,6089,4,2026-07-31T16:32:51.906655
 mooncharts,Xpeng/mooncharts,0.8.0,5018,3,2026-07-07T15:27:23.230092
 mooncov,Xpeng/mooncov,0.1.0,4889,2,2026-07-29T16:49:35.006600
 concord,mokomoking2501/concord,0.1.0,1498,2,2026-07-12T16:10:47.466575
@@ -1539,7 +1539,7 @@ moonbit-CryptoAssert,Kali-Leo/moonbit-CryptoAssert,0.2.0,6999,5,2026-07-30T12:34
 image,shunge/image,0.1.4,71347,1,2026-07-10T14:11:24.143901
 mbit,RabitLogic/mbit,0.2.2,12986,2,2026-07-22T01:55:40.269899
 mjwt,RabitLogic/mjwt,0.2.0,3049,1,2026-07-16T00:02:16.546328
-s7,RabitLogic/s7,0.1.1,2923,4,2026-07-27T08:41:43.651735
+s7,RabitLogic/s7,0.2.0,3563,6,2026-07-31T16:53:34.043206
 snowflake,RabitLogic/snowflake,0.1.2,1151,2,2026-07-21T05:29:33.472774
 rope,Teddy-Yangjiale/rope,0.1.0,1189,2,2026-06-26T16:56:04.134649
 moonflowgraph,AlexenderSokolov/moonflowgraph,0.3.0,4233,5,2026-07-13T12:04:42.850567
