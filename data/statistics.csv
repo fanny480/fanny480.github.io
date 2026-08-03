@@ -1759,7 +1759,7 @@ moondriftkit,liangjx987/moondriftkit,0.2.0,591,2,2026-07-18T15:29:26.579527
 moontracekit,SCL-NN/moontracekit,0.2.0,722,2,2026-07-18T21:49:39.107069
 MoonCRDTKit,ddd-1234d/MoonCRDTKit,0.2.0,1146,2,2026-07-19T23:53:05.418905
 pathforge,Deviaana/pathforge,0.1.0,1367,2,2026-07-20T07:44:56.526638
-pretty-fast-pretty-printer,marianoguerra/pretty-fast-pretty-printer,0.1.0,1429,2,2026-08-03T14:08:28.996468
+pretty-fast-pretty-printer,marianoguerra/pretty-fast-pretty-printer,0.2.1,2305,2,2026-08-03T16:39:48.481646
 tailwindcss,marianoguerra/tailwindcss,0.2.0,15876,4,2026-07-25T13:04:42.047764
 tutuca,marianoguerra/tutuca,0.9.11,92953,36,2026-08-03T15:05:05.977542
 moon_api_guard,FidollarinLA/moon_api_guard,0.5.3,4646,4,2026-07-24T16:52:24.376916
@@ -1793,7 +1793,7 @@ moonopenmetrics,JYPeng487/moonopenmetrics,0.1.0,6014,2,2026-07-29T17:29:41.73258
 moon-multipart,Songyz002/moon-multipart,0.2.1,3250,2,2026-07-30T06:14:27.029674
 MoonSearch,Lucius646/MoonSearch,0.1.0,10403,11,2026-07-30T16:54:33.701936
 moonpixelanimkit,WangYF0829/moonpixelanimkit,0.1.1,4944,3,2026-07-31T10:52:26.872193
-MoonCache,Ag108/MoonCache,0.1.2,9315,9,2026-08-03T14:12:23.862201
+MoonCache,Ag108/MoonCache,0.1.3,9318,9,2026-08-03T16:00:46.498019
 moon-wasi,Ag108/moon-wasi,0.1.0,2683,9,2026-08-01T15:24:47.541102
 moon-multipart,GCodinggo/moon-multipart,0.3.1,3537,2,2026-08-03T14:59:53.723313
 mooncap,usagi-star/mooncap,0.1.0,5334,13,2026-08-01T05:53:50.563309
