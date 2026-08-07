@@ -1203,7 +1203,7 @@ moonxi-net,chnlkw/moonxi-net,0.1.1,5996,13,2026-05-17T10:47:43.203408
 moonxi-net-gpu,chnlkw/moonxi-net-gpu,0.1.1,5545,9,2026-05-17T10:48:06.840527
 moon_rsa,Rutubet/moon_rsa,0.2.0,708,2,2025-12-01T16:39:49.827266
 moonata,rinnein/moonata,0.11.0,23655,9,2026-07-15T08:31:27.311794
-tyme4mb,justinwongcn/tyme4mb,0.2.0,16830,2,2026-08-04T14:42:35.528177
+tyme4mb,justinwongcn/tyme4mb,0.2.1,18926,5,2026-08-06T19:33:43.704535
 mb-chacha,Tigls/mb-chacha,0.1.0,528,1,2026-04-10T12:31:31.677840
 mb-getrandom,Tigls/mb-getrandom,0.1.0,210,1,2026-04-07T18:35:29.350340
 mb-hash,Tigls/mb-hash,0.1.0,898,1,2026-04-08T06:21:17.350795
@@ -1499,7 +1499,7 @@ Orion,wflixu/Orion,0.2.0,7579,10,2026-04-21T14:44:18.293778
 lepus,lepus-apps/lepus,0.1.8,19938,77,2026-06-18T15:35:35.375316
 webview,lepus-apps/webview,0.1.15,3114,3,2026-06-18T15:33:00.863571
 hcl,lenitain/hcl,0.1.3,27479,3,2026-04-27T10:58:58.230535
-kdl,lenitain/kdl,0.1.1,11139,6,2026-04-30T11:14:27.597899
+kdl,lenitain/kdl,0.2.0,16965,7,2026-08-06T14:54:02.962334
 magpiedb,codeworm96/magpiedb,0.2.0,13018,7,2026-04-20T06:57:07.939677
 hello,cogna-dev/hello,0.1.0,1109,2,2026-04-16T11:36:33.386830
 mapi,cogna-dev/mapi,0.1.1,2664,6,2026-04-17T04:32:55.935174
@@ -1593,7 +1593,7 @@ moonbit-CryptoAssert,Kali-Leo/moonbit-CryptoAssert,0.2.0,6999,5,2026-07-30T12:34
 image,shunge/image,0.1.4,71347,1,2026-07-10T14:11:24.143901
 mbit,RabitLogic/mbit,0.3.0,12263,7,2026-08-01T18:39:29.597926
 mjwt,RabitLogic/mjwt,0.2.0,3049,1,2026-07-16T00:02:16.546328
-s7,RabitLogic/s7,0.2.0,3563,6,2026-07-31T16:53:34.043206
+s7,RabitLogic/s7,0.2.5,4338,6,2026-08-06T21:09:08.319596
 snowflake,RabitLogic/snowflake,0.1.2,1151,2,2026-07-21T05:29:33.472774
 rope,Teddy-Yangjiale/rope,0.1.0,1189,2,2026-06-26T16:56:04.134649
 moonflowgraph,AlexenderSokolov/moonflowgraph,0.3.0,4233,5,2026-07-13T12:04:42.850567
@@ -1653,7 +1653,7 @@ moontxnkit,black-duck666/moontxnkit,0.4.0,1889,3,2026-07-17T02:11:53.462063
 moonwheelkit,brother-666/moonwheelkit,0.2.2,1656,3,2026-07-19T23:06:25.259698
 moonsatkit,yf666888/moonsatkit,0.2.0,1216,3,2026-07-06T12:25:26.995609
 moon-ssg,Myytsjj/moon-ssg,0.3.0,2158,3,2026-07-12T15:35:45.043204
-moonplot,dgmxjj/moonplot,0.2.0,1270,8,2026-07-12T08:43:18.084572
+moonplot,dgmxjj/moonplot,0.3.0,1486,8,2026-08-06T17:07:34.956242
 glob,Lxxbv/glob,0.2.1,7887,2,2026-08-06T10:44:04.702468
 moonbit-thermochem,Lxxbv/moonbit-thermochem,0.1.1,4491,6,2026-08-02T02:40:39.207185
 sdl,klaseca/sdl,0.1.0,1917,1,2026-08-01T18:23:49.677362
@@ -1736,7 +1736,7 @@ moonbitdb,JIA2JIA2/moonbitdb,0.1.1,4588,6,2026-07-19T06:33:58.665651
 moonbitgeodb,JIA2JIA2/moonbitgeodb,0.1.1,9718,8,2026-07-24T18:02:25.513052
 moonbit-log,leppard/moonbit-log,0.1.0,5248,2,2026-07-11T19:01:23.709809
 bio_seq,IvanAXu/bio_seq,0.1.0,10001,6,2026-07-11T19:39:03.471290
-BioSeqs,IvanAXu/BioSeqs,0.1.6,135670,150,2026-07-23T17:23:48.447780
+BioSeqs,IvanAXu/BioSeqs,0.1.7,539829,389,2026-08-06T17:15:32.760939
 moon_diffusion_lab,hxiuzheng/moon_diffusion_lab,0.1.0,1922,7,2026-07-18T03:22:12.724452
 moon_sfv,serene-WJ/moon_sfv,0.1.0,1063,2,2026-07-12T04:51:56.471201
 uri,Qlcdsba/uri,0.1.0,1511,2,2026-07-26T08:34:48.772015
@@ -1782,6 +1782,10 @@ moondriftkit,liangjx987/moondriftkit,0.2.0,591,2,2026-07-18T15:29:26.579527
 moontracekit,SCL-NN/moontracekit,0.2.0,722,2,2026-07-18T21:49:39.107069
 MoonCRDTKit,ddd-1234d/MoonCRDTKit,0.2.0,1146,2,2026-07-19T23:53:05.418905
 pathforge,Deviaana/pathforge,0.1.0,1367,2,2026-07-20T07:44:56.526638
+mcp,marianoguerra/mcp,0.2.2,1611,4,2026-08-06T15:46:01.817200
+mcp-client,marianoguerra/mcp-client,0.2.2,1772,4,2026-08-06T15:46:06.474502
+mcp-inspector,marianoguerra/mcp-inspector,0.2.2,1142,2,2026-08-06T15:46:11.096598
+mcp-inspector-cli,marianoguerra/mcp-inspector-cli,0.2.2,1580,1,2026-08-06T15:46:15.929556
 pretty-fast-pretty-printer,marianoguerra/pretty-fast-pretty-printer,0.2.1,2305,2,2026-08-03T16:39:48.481646
 tailwindcss,marianoguerra/tailwindcss,0.2.0,15876,4,2026-07-25T13:04:42.047764
 tutuca,marianoguerra/tutuca,0.9.13,94357,36,2026-08-03T21:59:05.687954
