@@ -1630,7 +1630,7 @@ moonbit-pathfinding,Suquster/moonbit-pathfinding,0.2.0,181493,71,2026-07-12T22:3
 mb-secure-stream,ChenJiasen-123/mb-secure-stream,0.1.3,8512,10,2026-07-11T13:11:54.230114
 nestedtext,OrisGo/nestedtext,0.1.1,6924,2,2026-07-11T15:24:08.597158
 examine,NiHao124538/examine,0.1.0,110,2,2026-06-13T08:44:18.445445
-bimap,aurasuisui/bimap,0.1.2,5985,4,2026-08-19T17:30:45.934065
+bimap,aurasuisui/bimap,0.1.3,6194,4,2026-08-22T16:52:33.419152
 indexmap,aurasuisui/indexmap,0.4.0,6089,4,2026-07-31T16:32:51.906655
 mooncharts,Xpeng/mooncharts,0.8.0,5018,3,2026-07-07T15:27:23.230092
 mooncov,Xpeng/mooncov,0.1.1,4890,2,2026-08-09T06:19:51.019340
@@ -1679,7 +1679,7 @@ MoonLogTrace,CCllff-jpg/MoonLogTrace,0.1.4,4696,2,2026-08-01T13:46:10.118259
 mooncollections,Zongzuixi114514/mooncollections,0.1.5,4664,13,2026-07-22T06:14:10.627852
 moonbit-reactor,LL124-Arch/moonbit-reactor,0.2.0,8076,3,2026-08-18T17:25:38.098220
 stencil,LL124-Arch/stencil,0.1.5,5417,2,2026-08-16T14:39:46.692040
-moonbit-abc,wedarp/moonbit-abc,0.1.1,9622,4,2026-08-21T14:51:40.024840
+moonbit-abc,wedarp/moonbit-abc,0.1.3,9745,4,2026-08-22T17:58:58.410160
 moongraph,wedarp/moongraph,0.2.2,4625,3,2026-08-16T14:31:12.832489
 moonmodguard,Noverberrain/moonmodguard,0.3.0,2809,2,2026-08-16T16:15:09.676488
 moonproto,Duan-lang-dev/moonproto,0.2.0,3415,2,2026-08-03T10:37:57.870287
@@ -1827,6 +1827,7 @@ BlackBoxOptimization,IvanAXu/BlackBoxOptimization,0.1.0,12296,4,2026-08-18T18:03
 moon_diffusion_lab,hxiuzheng/moon_diffusion_lab,0.1.6,5257,16,2026-08-16T15:02:55.516096
 robust_stats,hxiuzheng/robust_stats,0.2.1,26997,2,2026-08-20T15:12:01.706313
 moon_sfv,serene-WJ/moon_sfv,0.1.0,1063,2,2026-07-12T04:51:56.471201
+moonbit-barcoder,Qlcdsba/moonbit-barcoder,0.2.0,12286,2,2026-08-22T16:17:14.125657
 uri,Qlcdsba/uri,0.1.1,3512,3,2026-08-16T02:57:26.371390
 moon-reliability,wcx789ll/moon-reliability,0.3.1,24885,3,2026-08-21T17:01:52.602157
 moonsim,wcx789ll/moonsim,0.1.2,4848,16,2026-08-15T15:08:53.570261
@@ -1844,10 +1845,11 @@ moonfocus,zkazure/moonfocus,0.1.1,4684,7,2026-07-12T08:44:39.227211
 moonbit-design-tokens,wallll-wal6/moonbit-design-tokens,0.1.0,20348,2,2026-08-19T15:39:03.872052
 moonkv,wallll-wal6/moonkv,0.1.3,3556,3,2026-08-14T15:11:48.566500
 moonbin,hourizon/moonbin,0.1.0,1096,2,2026-07-12T10:08:15.999965
-sessionlog,ywz1314/sessionlog,0.2.2,10628,27,2026-08-19T09:00:12.525947
+sessionlog,ywz1314/sessionlog,0.2.3,31078,38,2026-08-22T15:43:32.538744
 vector,ywz1314/vector,0.1.3,5026,2,2026-08-16T13:32:15.834865
-moonbit-modbus,qyt1234567/moonbit-modbus,0.2.0,10491,3,2026-08-19T09:44:06.173180
+moonbit-modbus,qyt1234567/moonbit-modbus,0.2.1,27816,3,2026-08-22T13:16:25.951348
 moongraphlearn,qyt1234567/moongraphlearn,0.1.2,5817,9,2026-08-16T15:40:17.653695
+hrvkit,zhzh12345678/hrvkit,0.3.0,24188,2,2026-08-22T16:03:43.247976
 moon_tracekit,zhzh12345678/moon_tracekit,0.1.2,4702,12,2026-08-16T13:04:30.348532
 moon-tensor,Ankaluoer/moon-tensor,0.1.0,659,2,2026-07-12T12:48:50.360177
 moonbench,sa2360/moonbench,0.3.0,1124,2,2026-07-17T07:08:34.328218
@@ -1873,7 +1875,7 @@ moongeoroute,phjphj676/moongeoroute,0.1.6,4390,8,2026-08-16T15:58:51.680452
 moon-online-models,phjphj676/moon-online-models,0.2.0,15824,2,2026-08-17T16:41:35.821900
 minitpl,joanna/minitpl,0.1.2,512,5,2026-07-16T03:19:54.478118
 moonbit-texteditor,lexchb/moonbit-texteditor,0.1.0,3502,1,2026-07-16T12:27:11.289357
-yamlscript,ingydotnet/yamlscript,0.2.30,92,1,2026-08-20T01:42:48.093101
+yamlscript,ingydotnet/yamlscript,0.2.31,92,1,2026-08-22T15:55:00.601106
 yamlstar,ingydotnet/yamlstar,0.1.18,92,1,2026-07-29T02:33:18.441137
 crescent,hnlyxiaobing/crescent,0.10.3,23919,23,2026-08-19T12:27:42.975896
 MBOpenClacky,hnlyxiaobing/MBOpenClacky,0.1.0,98780,33,2026-07-17T05:36:07.810550
@@ -1927,7 +1929,7 @@ endor,poteto0/endor,0.8.0,28679,24,2026-08-22T04:02:23.399363
 agent,weopqrst/agent,0.5.1,7778,19,2026-08-19T00:56:02.386105
 behavior_tree,mhh12345678/behavior_tree,0.1.2,5993,2,2026-08-16T12:18:23.497061
 injuryrisk,mhh12345678/injuryrisk,0.2.0,10500,3,2026-08-19T09:14:13.814919
-moonbit-canbus,myc1234567/moonbit-canbus,0.1.0,9293,4,2026-08-19T09:47:27.646330
+moonbit-canbus,myc1234567/moonbit-canbus,0.1.1,22701,4,2026-08-22T14:47:39.795682
 moon_metric_lab,myc1234567/moon_metric_lab,0.1.3,4851,12,2026-08-16T14:30:13.042930
 moonbit-klt-tracker,Zjyyer/moonbit-klt-tracker,0.1.0,12322,15,2026-08-21T12:29:35.083388
 moontera,Zjyyer/moontera,0.1.0,2360,9,2026-07-28T03:47:06.308745
@@ -1965,7 +1967,7 @@ gaitlab,hgetty/gaitlab,0.1.1,15822,11,2026-08-19T10:20:55.401130
 moonbit-hl7v2,plhjbg/moonbit-hl7v2,0.1.1,10718,17,2026-08-19T12:12:36.494354
 RX-MBT,vicTop-cw/RX-MBT,0.1.0,14689,15,2026-08-03T04:03:40.688374
 decision-tree,chenzexin02-hash/decision-tree,0.2.0,5800,6,2026-08-04T12:25:39.897591
-moonbit-returnplay,qxjhhrr/moonbit-returnplay,0.1.0,6615,3,2026-08-21T16:03:11.871670
+moonbit-returnplay,qxjhhrr/moonbit-returnplay,0.1.1,6615,3,2026-08-22T15:14:44.682781
 time-series-forecasting,wjhsb1/time-series-forecasting,0.1.0,5854,1,2026-08-05T06:04:08.462322
 kernel-svm,Yuxiao-Bot/kernel-svm,0.1.0,6775,7,2026-08-05T09:38:13.871602
 thermo_trail,sujy123456/thermo_trail,0.1.0,5849,3,2026-08-05T09:52:25.084940
@@ -1975,9 +1977,9 @@ mooncal,ciqingweiyang/mooncal,0.1.2,4759,3,2026-08-17T14:58:31.717941
 comemoon,starAndHonor/comemoon,0.1.1,3542,1,2026-08-19T09:12:08.000938
 moon-problem-details,6P66006/moon-problem-details,0.1.0,4301,7,2026-08-21T12:38:37.966479
 moon-sfv,6P66006/moon-sfv,0.1.0,24463,7,2026-08-06T02:51:17.103996
-moonbit-canbus,fuyun-2026/moonbit-canbus,0.2.2,7409,13,2026-08-22T06:05:04.729673
+moonbit-canbus,fuyun-2026/moonbit-canbus,0.2.3,7473,13,2026-08-22T13:35:02.989038
 moonbit-pcap,cghyyrrt/moonbit-pcap,0.1.1,8009,11,2026-08-20T18:30:41.057957
-moonbit-rtl,dtzrttp/moonbit-rtl,0.2.0,8607,9,2026-08-21T17:34:56.830023
+moonbit-rtl,dtzrttp/moonbit-rtl,0.2.1,8608,9,2026-08-22T14:16:39.774041
 pinyin-toolkit,wjhfather/pinyin-toolkit,0.1.0,14641,6,2026-08-06T13:58:57.334741
 moonbit-mcu-hal,sbqrre/moonbit-mcu-hal,0.2.0,11360,47,2026-08-20T11:28:10.199682
 iec104,dgmlbtttt/iec104,0.2.0,9467,11,2026-08-20T13:45:44.958011
@@ -2007,7 +2009,7 @@ opendal,Eric-Song-Nop/opendal,0.2.0,40178,4,2026-08-15T05:01:05.646734
 moonbit_diff,pei0331/moonbit_diff,0.5.0,1792,2,2026-08-15T10:01:20.901950
 moon-wit,pei0331/moon-wit,0.1.0,3883,10,2026-08-12T06:54:27.426923
 moonvault,Q30399/moonvault,0.1.0,3983,2,2026-08-12T07:23:54.995438
-moonbit-rulesorigin,hjuuhj/moonbit-rulesorigin,0.1.0,10292,12,2026-08-22T12:20:23.116551
+moonbit-rulesorigin,hjuuhj/moonbit-rulesorigin,0.1.1,10292,12,2026-08-22T13:11:54.789882
 MoonRetrieve,niuniu513-ask/MoonRetrieve,0.5.0,4152,3,2026-08-21T09:43:43.746223
 moonbit_cron,lijunjie860/moonbit_cron,0.1.0,800,2,2026-08-12T15:24:08.147288
 moon-weblink,15614376790/moon-weblink,0.1.1,9390,7,2026-08-21T14:17:21.229683
@@ -2015,6 +2017,7 @@ moonhls,chenqi-arch/moonhls,0.2.0,4260,2,2026-08-18T03:20:47.014181
 moon-content-disposition,xiaojing012/moon-content-disposition,0.1.1,8942,8,2026-08-13T03:34:43.494987
 moon-warc,xiaojing012/moon-warc,0.1.0,7560,3,2026-08-21T12:00:17.341296
 moon-robots,liuhang0001/moon-robots,0.1.1,2921,6,2026-08-13T04:59:29.259303
+moonbit-fastq-qc,zkc-long/moonbit-fastq-qc,0.1.1,4389,9,2026-08-22T17:17:16.231068
 moon-securitytxt,moyunijieshi1/moon-securitytxt,0.1.0,5566,7,2026-08-21T13:03:29.372006
 neighbor_rota,zjk9993/neighbor_rota,0.1.1,5585,3,2026-08-22T07:27:15.083495
 rrule_lab,cjkzD/rrule_lab,0.1.0,4340,2,2026-08-13T09:28:55.040832
@@ -2025,6 +2028,7 @@ toml-mbt,yufenfei111/toml-mbt,0.2.0,8971,8,2026-08-21T06:13:21.810427
 moondatalog,haol-05/moondatalog,0.1.1,3890,3,2026-08-15T13:30:35.283161
 moonconfigkit,crh12354/moonconfigkit,0.1.0,2631,2,2026-08-14T10:27:38.204373
 moonbit-license-audit,clbbbb/moonbit-license-audit,0.1.1,5024,2,2026-08-14T15:28:32.465356
+moonbit-wasm-inspect,clbbbb/moonbit-wasm-inspect,0.1.0,4236,3,2026-08-22T14:45:34.409007
 har-toolkit,cpypypypy/har-toolkit,0.1.0,5903,6,2026-08-15T08:33:00.072658
 moonflags,WhisperJXH/moonflags,0.2.1,8577,2,2026-08-17T14:40:05.414836
 moonresilience,liying-han/moonresilience,0.2.0,5205,2,2026-08-16T04:15:36.834635
@@ -2056,8 +2060,8 @@ moonbit-gltf-tools,hzfhzf89/moonbit-gltf-tools,0.1.1,30906,3,2026-08-22T11:13:02
 radiation,Zjfzjf666/radiation,0.2.0,10610,2,2026-08-19T08:15:10.210031
 moonbit-ats-timetable,zhtzht12345678/moonbit-ats-timetable,0.1.0,9287,3,2026-08-19T08:28:30.409925
 moonbit-easings,Zlj6566/moonbit-easings,0.1.0,9797,3,2026-08-19T08:32:31.967849
-moonbit-deid,ljlljl678/moonbit-deid,0.1.0,9897,2,2026-08-19T09:22:29.554192
-moonbit-vector-trace-plan,zgfzgf899/moonbit-vector-trace-plan,0.2.0,13380,8,2026-08-19T09:35:05.466460
+moonbit-deid,ljlljl678/moonbit-deid,0.1.1,23696,2,2026-08-22T15:11:29.343840
+moonbit-vector-trace-plan,zgfzgf899/moonbit-vector-trace-plan,0.2.1,24365,8,2026-08-22T14:58:05.763681
 moonbit-iec104,hhxhhx78/moonbit-iec104,0.3.0,23360,2,2026-08-22T12:13:00.806830
 moonbit-rtl,yzfyzf12345678/moonbit-rtl,0.1.4,20978,3,2026-08-20T14:22:41.698062
 moonbit-vcd,lqhy1234567/moonbit-vcd,0.3.0,21800,2,2026-08-19T12:46:15.451012
@@ -2103,5 +2107,15 @@ moonbit-freight-calculator,lyyjavastudy/moonbit-freight-calculator,0.2.0,32274,3
 moonhook,zzy12346/moonhook,0.1.0,6406,2,2026-08-22T07:26:29.014769
 mailkit_12314,fhh12341/mailkit_12314,0.1.0,5073,2,2026-08-22T07:42:59.414310
 voltweave,suqinxi/voltweave,0.1.1,5653,3,2026-08-22T10:58:07.016043
+evowitness,CJR-ai-nb/evowitness,0.1.0,5628,3,2026-08-22T16:04:09.758304
 fairshift,zhou506403/fairshift,0.1.0,4789,2,2026-08-22T12:46:40.083775
+rosterweave,zhou506403/rosterweave,0.1.0,4789,2,2026-08-22T13:11:53.926367
 moon-prometheus-sdk,guiqi695/moon-prometheus-sdk,0.1.0,7179,19,2026-08-22T12:33:30.502141
+multipart-stream,longhuanlin/multipart-stream,0.1.1,7077,14,2026-08-22T13:17:48.006851
+xpath-evaluator,cravan371/xpath-evaluator,0.1.0,7252,8,2026-08-22T14:05:03.513387
+moonbit-triage,agentdebug799/moonbit-triage,0.4.0,10511,3,2026-08-22T15:21:03.761568
+sshconfig-resolve,jingmo653/sshconfig-resolve,0.1.0,7891,11,2026-08-22T15:43:02.658349
+moonmail,howhere7/moonmail,0.1.0,6818,7,2026-08-22T15:54:02.929178
+moon-dns-stub,jinshengmeng46/moon-dns-stub,0.1.0,8595,4,2026-08-22T16:06:35.315094
+moon-avro,yugonlian/moon-avro,0.2.4,3905,10,2026-08-22T17:25:10.629523
+moonbit-brandbook,cyypyhon123/moonbit-brandbook,0.2.1,12099,2,2026-08-22T18:12:51.157984
