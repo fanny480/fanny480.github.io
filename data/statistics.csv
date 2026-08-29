@@ -5,7 +5,7 @@ aarch64_target,Milky2018/aarch64_target,0.12.6,26601,1,2026-08-28T09:39:12.89412
 abort_hook,sennenki/abort_hook,0.1.0,53,2,2026-02-26T11:01:08.517609
 abyssal_chord,sssssurf/abyssal_chord,0.1.0,5503,2,2026-06-22T07:55:06.537295
 acceptkit,XiaoMao-MYY/acceptkit,0.1.0,5026,2,2026-08-09T13:00:47.047403
-acp,colmugx/acp,0.1.3,66521,20,2026-08-21T06:48:47.335328
+acp,colmugx/acp,0.2.0,78938,22,2026-08-29T09:51:41.632325
 actrun,mizchi/actrun,0.30.1,66353,10,2026-05-26T12:26:26.303224
 adapton,illusory0x0/adapton,0.1.4,471,1,2025-09-09T03:36:49.838994
 admiral,totto2727/admiral,0.6.5,6250,5,2026-08-25T10:48:35.023284
@@ -302,7 +302,7 @@ cspkit,ZYK-ai-nb/cspkit,0.1.0,4740,2,2026-08-20T06:57:03.392707
 csp-weaver-mbt,LH-DD-lh/csp-weaver-mbt,0.1.0,5454,2,2026-08-24T15:31:09.886543
 css,mizchi/css,0.7.3,47457,12,2026-06-29T08:02:53.944003
 css,Milky2018/css,0.5.2,40704,9,2026-07-23T11:47:45.154133
-cst,mizchi/cst,0.1.9,2624,4,2026-08-15T12:55:29.269543
+cst,mizchi/cst,0.1.10,2624,4,2026-08-29T14:07:43.019442
 cstdio-ffi,Bemly/cstdio-ffi,0.1.0,1725,2,2026-04-10T13:17:50.317286
 csv_parser,maria/csv_parser,0.1.0,929,2,2025-11-18T12:32:23.360367
 ctf_tools,hanstechnow/ctf_tools,0.1.0,93,3,2025-01-15T12:55:49.239999
@@ -395,7 +395,7 @@ error,YumeXi/error,0.2.3,314,3,2026-08-14T09:37:27.608373
 esp32,moonbitlang/esp32,0.1.19,797,8,2025-05-08T05:38:24.834817
 Eunoiay,Eunoiay/Eunoiay,0.1.0,13,1,2025-03-11T14:56:39.635652
 eval,oboard/eval,0.9.4,73029,8,2026-06-23T15:54:14.007811
-event-graph-walker,dowdiness/event-graph-walker,0.7.1,45428,19,2026-08-01T16:45:16.968699
+event-graph-walker,dowdiness/event-graph-walker,0.8.0,57461,21,2026-08-29T08:02:14.474871
 eventrail,violetcb/eventrail,0.3.2,6727,2,2026-08-17T10:15:34.264733
 evmasm,CAIMEOX/evmasm,0.1.0,5713,1,2026-02-09T03:03:47.210042
 evowitness,CJR-ai-nb/evowitness,0.1.1,5628,3,2026-08-24T14:54:56.152377
@@ -827,7 +827,7 @@ margs,dowdiness/margs,0.1.2,4638,2,2026-02-16T06:41:24.474228
 mariadb,bikallem/mariadb,0.0.1,942,4,2025-09-18T12:55:13.189752
 maria_json_parser,tonyfettes/maria_json_parser,0.1.0,1330,2,2025-11-17T11:35:15.748208
 markdown,shiguri-01/markdown,0.1.1,16622,3,2026-06-13T11:06:18.446013
-markdown,mizchi/markdown,0.7.4,28566,29,2026-07-28T13:09:44.664723
+markdown,mizchi/markdown,0.8.0,29321,29,2026-08-29T15:55:06.618563
 markitdown,ZSeanYves/markitdown,0.5.3,182209,106,2026-07-12T15:41:25.028084
 mars,mizchi/mars,0.3.11,15562,12,2026-06-29T17:59:52.458832
 math,Kaida-Amethyst/math,0.1.21,15075,1,2026-07-08T07:47:59.141284
@@ -862,7 +862,7 @@ mbtsmith,Kaida-Amethyst/mbtsmith,0.1.4,3244,2,2025-08-15T10:16:51.762225
 MCIL,Lampese/MCIL,0.1.1,18534,4,2026-01-09T05:19:09.438184
 mcp,shiguri-01/mcp,0.2.0,21082,8,2026-08-20T03:40:21.529656
 mcp,marianoguerra/mcp,0.9.1,3990,6,2026-08-25T09:18:56.350196
-mcp,colmugx/mcp,0.16.0,14884,11,2026-08-28T09:17:32.413107
+mcp,colmugx/mcp,0.17.1,15160,11,2026-08-29T15:56:42.967202
 mcp-bsky,marianoguerra/mcp-bsky,0.9.1,2340,2,2026-08-25T09:19:32.263174
 mcp-client,marianoguerra/mcp-client,0.9.1,1777,4,2026-08-25T09:19:10.812217
 mcp-inspector,marianoguerra/mcp-inspector,0.9.1,1664,2,2026-08-25T09:19:16.032674
@@ -942,9 +942,9 @@ moonaerowx,jshsj124/moonaerowx,0.1.0,2873,2,2026-08-23T05:42:52.102288
 moon-agent-graph,totto2727/moon-agent-graph,0.1.2,7694,11,2026-08-05T11:40:01.834984
 moonai,QuietlyChan/moonai,0.1.0,122587,30,2026-08-16T12:49:27.613279
 moonalign,LL728/moonalign,0.2.2,3052,2,2026-08-24T09:03:31.731231
-moonapi,Lfan-ke/moonapi,0.6.2,6713,1,2026-07-29T06:55:32.748833
+moonapi,Lfan-ke/moonapi,0.7.0,11393,24,2026-08-29T16:39:15.519141
 moon_api_guard,FidollarinLA/moon_api_guard,0.6.1,4823,4,2026-08-16T15:35:39.962047
-moonasgi,Lfan-ke/moonasgi,0.7.0,4183,1,2026-07-29T19:19:18.844226
+moonasgi,Lfan-ke/moonasgi,0.8.0,5654,15,2026-08-29T16:35:44.11017
 moonata,rinnein/moonata,0.11.0,23655,9,2026-07-15T08:31:27.311794
 moonatlas,Atman-Angle/moonatlas,0.1.0,1319,6,2026-08-28T12:44:06.796837
 moon-audit,minie135/moon-audit,0.3.0,9105,2,2026-08-24T06:50:42.840701
@@ -1131,7 +1131,7 @@ mooncal,ciqingweiyang/mooncal,0.1.2,4759,3,2026-08-17T14:58:31.717941
 mooncalguard,WYT-ai-nb/mooncalguard,0.1.0,5971,2,2026-08-20T13:57:43.330045
 mooncap,usagi-star/mooncap,0.1.0,5334,13,2026-08-01T05:53:50.563309
 mooncast,vectie/mooncast,0.2.3,69614,58,2026-08-03T11:46:39.039855
-mooncat,Lfan-ke/mooncat,0.6.2,2827,1,2026-07-29T06:58:19.90627
+mooncat,Lfan-ke/mooncat,0.7.0,21378,35,2026-08-29T16:41:44.145932
 moon-causal,qjgqjg/moon-causal,0.2.5,26694,2,2026-08-24T09:44:08.97371
 mooncedar,jaredzhou/mooncedar,0.1.5,11318,4,2026-07-19T13:30:25.492184
 moon_cel,aloyscc/moon_cel,0.1.0,6643,3,2026-08-24T14:29:10.067184
@@ -1172,7 +1172,7 @@ mooncron,001-Elsa/mooncron,0.1.4,5560,2,2026-08-01T04:20:32.671603
 mooncry,cc06b/mooncry,0.20.0,15433,3,2026-08-17T03:30:33.644603
 mooncrypto,oboard/mooncrypto,0.1.8,1010,2,2024-07-30T12:09:43.313495
 moon-csv-lite,clhhhhh/moon-csv-lite,0.1.0,9897,8,2026-07-01T01:48:54.851672
-moonctl,Lfan-ke/moonctl,0.6.1,6140,4,2026-07-29T05:37:27.953454
+moonctl,Lfan-ke/moonctl,0.6.2,8162,17,2026-08-29T16:42:58.118025
 moon-cv-geometry,python123-ops/moon-cv-geometry,0.2.2,21592,9,2026-08-24T07:50:02.425992
 moon-cv-geometry,cxh04/moon-cv-geometry,0.1.0,1310,9,2026-07-22T14:36:59.075057
 moon_dagre,Milky2018/moon_dagre,0.2.5,10424,1,2026-04-08T11:22:00.94912
@@ -1181,7 +1181,7 @@ moondata,Lampese/moondata,0.2.8,1165,1,2025-01-09T03:55:37.532021
 moondata2,Lampese/moondata2,0.0.2,335,1,2025-01-17T08:51:01.79082
 moon-data-contract,lyjttio/moon-data-contract,0.2.2,10353,7,2026-08-24T15:59:46.96565
 moondatalog,haol-05/moondatalog,0.1.1,3890,3,2026-08-15T13:30:35.283161
-moondb,Lfan-ke/moondb,0.1.5,1811,1,2026-07-29T22:38:59.739615
+moondb,Lfan-ke/moondb,0.1.6,1860,1,2026-08-29T16:35:57.572234
 moondepsolve,python123/moondepsolve,0.3.1,2504,3,2026-07-07T17:39:37.106881
 moondes,walkzzz/moondes,0.5.0,2603,10,2026-08-16T04:59:25.414557
 moondesk,vectie/moondesk,0.1.5,120309,34,2026-08-03T11:46:39.460392
@@ -1235,7 +1235,7 @@ MoonGeo,SupremeHuaji/MoonGeo,0.1.0,1563,2,2025-12-26T03:27:25.640385
 moongeokit,cn-xjr/moongeokit,0.3.0,1697,3,2026-07-17T00:21:35.517334
 moongeoroute,phjphj676/moongeoroute,0.1.6,4390,8,2026-08-16T15:58:51.680452
 moongettext,YanFangNie/moongettext,0.1.1,4378,3,2026-08-09T04:00:12.3771
-moongql,Lfan-ke/moongql,0.6.2,7432,1,2026-07-29T06:55:33.301522
+moongql,Lfan-ke/moongql,0.7.0,10244,25,2026-08-29T16:39:37.963234
 moongrad,lyjttio/moongrad,0.1.7,3267,2,2026-08-14T04:35:19.893478
 moongraph,wedarp/moongraph,0.2.2,4625,3,2026-08-16T14:31:12.832489
 moongraphlearn,qyt1234567/moongraphlearn,0.1.2,5817,9,2026-08-16T15:40:17.653695
@@ -1267,7 +1267,7 @@ moon-jsonpath,ppyj663/moon-jsonpath,0.2.0,1622,2,2026-07-12T05:49:37.017755
 moonjsonpath,Freesia666/moonjsonpath,0.1.1,7747,2,2026-07-09T14:46:29.047633
 MoonJust,ZSeanYves/MoonJust,0.1.1,71429,29,2026-08-25T08:41:03.405625
 moon-kalman,Lyllyl789/moon-kalman,0.2.1,24444,3,2026-08-20T14:37:48.758199
-moonkoog,Lfan-ke/moonkoog,0.2.0,12842,38,2026-08-04T14:06:53.224854
+moonkoog,Lfan-ke/moonkoog,0.3.0,12941,38,2026-08-29T16:36:12.74639
 moonkv,wallll-wal6/moonkv,0.1.3,3556,3,2026-08-14T15:11:48.5665
 moon_l10n,Zhouz-z/moon_l10n,0.2.0,5983,2,2026-08-16T15:07:59.646288
 moonlab,oyjh0381/moonlab,0.1.0,5046,6,2026-08-12T09:13:17.01493
@@ -1309,7 +1309,7 @@ moon-multipart,GCodinggo/moon-multipart,0.3.2,3537,2,2026-08-21T09:55:17.149752
 moon-multipart,Songyz002/moon-multipart,0.2.1,3250,2,2026-07-30T06:14:27.029674
 moon-mustache,bellesz0611/moon-mustache,0.2.0,11292,16,2026-07-11T04:01:49.469012
 moon_mutest,Magic486/moon_mutest,0.1.7,5866,7,2026-07-12T09:07:43.389559
-moon-mysql,Lfan-ke/moon-mysql,0.2.0,3103,2,2026-07-29T23:21:49.720329
+moon-mysql,Lfan-ke/moon-mysql,0.3.0,3228,2,2026-08-29T16:36:52.590567
 moonnavkit,cn-cheems/moonnavkit,0.3.0,2477,3,2026-07-05T19:09:35.252704
 moon-ninja,Zcxssxx/moon-ninja,0.3.2,4285,3,2026-08-16T15:29:24.328092
 moonnlp,ppyq882/moonnlp,0.3.0,5383,8,2026-08-14T16:37:06.702016
@@ -1319,7 +1319,7 @@ moon-online-models,phjphj676/moon-online-models,0.2.3,22537,2,2026-08-24T13:25:5
 moon_openapi_cli,Showichiro/moon_openapi_cli,0.1.5,7360,15,2026-04-22T15:58:42.332188
 moonopenmetrics,JYPeng487/moonopenmetrics,0.1.1,5991,2,2026-08-09T06:13:48.814793
 moonorbit,didiLjf/moonorbit,0.2.1,3774,6,2026-08-16T15:04:41.929575
-moonorm,Lfan-ke/moonorm,0.7.0,13322,7,2026-07-29T23:22:00.002075
+moonorm,Lfan-ke/moonorm,0.7.1,16070,29,2026-08-29T16:37:02.961026
 moonorm,summer-boythink/moonorm,0.1.0,34,3,2024-03-15T08:32:45.512162
 MoonP5,Demonmasterlqx/MoonP5,0.0.8,3563,4,2025-11-12T07:02:44.618738
 moonpack,001-Elsa/moonpack,0.1.2,5126,6,2026-07-12T15:21:24.825743
@@ -1338,7 +1338,7 @@ moonplant,Milky2018/moonplant,0.3.1,858,2,2025-05-22T02:15:49.833416
 moonplot,dgmxjj/moonplot,0.5.0,5335,14,2026-08-15T02:55:37.84408
 moonpolicykit,jhshuai/moonpolicykit,0.2.0,1295,2,2026-07-06T17:42:02.116624
 moonpost,MaoDingA/moonpost,0.2.1,16868,12,2026-07-07T07:00:16.222092
-moon-postgres,Lfan-ke/moon-postgres,0.2.0,2698,1,2026-07-29T23:21:45.654781
+moon-postgres,Lfan-ke/moon-postgres,0.2.1,2753,1,2026-08-29T16:36:42.919641
 moon-pptx,t-ujiie-g/moon-pptx,0.7.1,64334,16,2026-08-04T21:54:25.832862
 moonpress,hua1104/moonpress,0.1.0,1506,2,2026-07-08T03:06:46.777822
 moon-privacy-budget,ppyq882/moon-privacy-budget,0.1.1,10109,11,2026-08-19T04:29:02.710255
@@ -1374,7 +1374,7 @@ moonrobo,vectie/moonrobo,0.1.1,120507,78,2026-08-03T10:23:06.431299
 moon-robots,liuhang0001/moon-robots,0.1.1,2921,6,2026-08-13T04:59:29.259303
 moon_rodio,Milky2018/moon_rodio,0.3.4,22729,55,2026-08-04T02:36:31.401384
 MoonRoute,PingGuoMiaoMiao/MoonRoute,0.1.3,2573,13,2026-08-29T05:15:28.636369
-moonrpc,Lfan-ke/moonrpc,0.8.1,11605,3,2026-07-30T20:12:17.375718
+moonrpc,Lfan-ke/moonrpc,0.9.0,15179,29,2026-08-29T16:36:01.536053
 moonrrule,lxz123411/moonrrule,0.1.0,7745,7,2026-08-17T06:33:46.509718
 moon_rsa,Rutubet/moon_rsa,0.2.0,708,2,2025-12-01T16:39:49.827266
 moonrule,YeeHh2004/moonrule,0.4.1,6428,2,2026-08-11T11:52:26.239531
@@ -1411,7 +1411,7 @@ moonspdx,LuoYunze06/moonspdx,0.3.0,3767,2,2026-08-28T14:29:06.511678
 moonspec,moonrockz/moonspec,0.5.0,28202,14,2026-02-25T10:51:01.900964
 MoonSpectrum,chgttyyr/MoonSpectrum,0.2.2,3627,2,2026-08-14T18:00:15.863807
 moonsql,uiwcvb/moonsql,0.1.0,4431,2,2026-08-13T15:26:35.950461
-moon-sqlite,Lfan-ke/moon-sqlite,0.2.0,844,1,2026-07-29T23:21:41.990583
+moon-sqlite,Lfan-ke/moon-sqlite,0.2.1,844,1,2026-08-29T16:36:33.95262
 moon-ssg,Myytsjj/moon-ssg,0.3.1,4718,7,2026-08-15T07:00:21.050809
 MoonStats,structuraBlock/MoonStats,0.3.0,328,2,2025-02-02T15:24:47.586394
 MoonSteel,SupremeHuaji/MoonSteel,0.1.0,1675,2,2025-12-26T02:38:49.92818
@@ -1472,7 +1472,7 @@ moonyacc,hackwaly/moonyacc,0.3.1,12650,17,2024-12-23T17:39:47.402951
 moonyara,Hjyyutr/moonyara,0.1.5,4592,4,2026-08-15T04:22:59.747579
 moon_yazi,Milky2018/moon_yazi,0.1.3,3568,1,2026-06-10T06:11:29.481624
 moon_zeno,Milky2018/moon_zeno,0.1.3,6261,1,2026-06-10T06:11:15.128083
-moonzero,Lfan-ke/moonzero,0.6.2,5926,2,2026-07-29T07:04:48.462719
+moonzero,Lfan-ke/moonzero,0.6.3,12079,17,2026-08-29T16:40:22.176381
 moonzip,ivgtr/moonzip,0.2.4,12712,13,2026-02-27T09:48:41.298945
 moon_zod,Betterlol/moon_zod,0.8.2,14725,18,2026-07-12T15:05:34.629236
 moos-sdk,furesoft/moos-sdk,0.1.43,958,2,2025-05-04T08:23:50.195336
@@ -1616,7 +1616,7 @@ pixelforge,0717lee/pixelforge,0.13.1,7158,3,2026-08-19T04:11:22.890344
 pixelmatch,mizchi/pixelmatch,0.6.1,4306,5,2026-05-26T10:19:20.788719
 pkf,mizchi/pkf,0.14.2,10881,3,2026-08-03T05:19:58.919114
 pkgparser,sennenki/pkgparser,0.1.0,1327,1,2026-04-28T02:40:28.586643
-pkl,mizchi/pkl,0.6.0,99966,2,2026-08-02T17:30:05.958113
+pkl,mizchi/pkl,0.7.0,100101,2,2026-08-29T15:14:21.046142
 pk-rng-gen3,yatsuna827/pk-rng-gen3,0.1.0,6337,11,2025-07-13T10:13:55.114976
 pk-rng-lcg32,yatsuna827/pk-rng-lcg32,0.2.0,275,2,2026-05-05T16:55:24.784275
 platform,tonyfettes/platform,0.1.1,60,1,2026-07-05T10:03:48.248782
@@ -1760,7 +1760,7 @@ reqbest,oboard/reqbest,0.6.0,11945,3,2026-08-18T03:31:03.770129
 reqmest,oboard/reqmest,0.5.4,11610,3,2026-08-17T17:27:21.552602
 reslock,WSH-ai-nb/reslock,0.1.0,3688,2,2026-08-19T17:09:18.454854
 respo,tiye/respo,0.3.4,7066,4,2026-05-17T04:39:13.209893
-respo_css,tiye/respo_css,0.1.6,4894,2,2026-04-30T16:37:24.763005
+respo_css,tiye/respo_css,0.1.7,5133,2,2026-08-29T15:45:53.398289
 respo-markdown,tiye/respo-markdown,0.1.3,1479,3,2025-12-20T07:39:36.86023
 respo-router,tiye/respo-router,0.0.1,456,2,2025-06-01T17:05:13.259194
 reviewproof-kit,WB-ai-nb/reviewproof-kit,0.3.1,5520,3,2026-08-20T06:58:52.120126
