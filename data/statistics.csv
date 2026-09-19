@@ -359,7 +359,7 @@ directories,moonrockz/directories,0.1.0,743,1,2026-02-24T20:16:43.645305
 direct_sdk,f4ah6o/direct_sdk,0.11.1,14915,22,2026-02-18T23:41:35.590239
 dirname,cli/dirname,0.1.4,95,1,2026-09-05T17:30:17.44279
 dirs,justjavac/dirs,0.1.2,1358,1,2026-06-10T05:35:11.639033
-discord,gaato/discord,0.1.0,84561,36,2026-08-30T13:47:58.802888
+discord,gaato/discord,0.2.0,85957,35,2026-09-19T16:48:08.387063
 discord,mizchi/discord,0.1.2,1663,3,2026-04-25T13:36:51.417135
 displaytext,moonbit-community/displaytext,0.1.5,935,1,2026-06-07T10:09:41.301723
 dispokit,BenPaoBaMingWangXing/dispokit,0.1.1,4957,3,2026-08-10T13:42:33.018887
@@ -1020,7 +1020,7 @@ momoka,kokic/momoka,0.4.4,1299,1,2026-08-14T07:19:26.195026
 monastry,tiye/monastry,0.1.0,79,1,2026-08-30T09:39:46.282532
 mongodb,allain/mongodb,0.1.1,9540,3,2026-01-29T18:30:06.080944
 montecarlo,jdjjttr/montecarlo,0.1.0,7809,14,2026-08-24T05:41:00.63042
-moobile,XiLaiTL/moobile,0.2.0,30994,25,2026-09-19T07:20:36.990627
+moobile,XiLaiTL/moobile,0.2.2,31075,29,2026-09-19T16:21:32.673318
 moodtcpcli,aspnmy/moodtcpcli,0.1.0,92,2,2026-07-12T14:43:57.461391
 moomaid,mizchi/moomaid,0.4.0,7400,5,2026-07-28T10:16:36.037416
 moon8bit,sacckey/moon8bit,0.1.0,3115,7,2026-04-03T18:39:56.309983
@@ -1497,7 +1497,7 @@ moonpathfinding,hzc-666-ai/moonpathfinding,0.1.3,3072,7,2026-08-01T07:53:45.3962
 moon-pathplanning,NoEmotionYY/moon-pathplanning,0.1.0,8131,16,2026-07-10T18:07:13.634765
 moonpeg,kekeshuo/moonpeg,0.1.0,1899,4,2026-09-11T15:37:21.060887
 moonpermit,doffice/moonpermit,0.1.1,4503,4,2026-09-11T08:39:28.935863
-moonpetri,okMambaOut/moonpetri,0.1.0,1604,3,2026-09-10T02:46:22.53792
+moonpetri,okMambaOut/moonpetri,0.1.1,1605,3,2026-09-19T16:21:45.380683
 moonpg,jaredzhou/moonpg,0.8.11,16035,4,2026-07-27T11:09:20.534063
 moonphaserkit,Ridge-Lab/moonphaserkit,0.3.0,5596,3,2026-07-10T13:51:25.000617
 moonpixelanimkit,WangYF0829/moonpixelanimkit,0.1.2,5135,3,2026-08-20T06:18:07.642343
@@ -2045,10 +2045,10 @@ scheme-r6rs,bobzhang/scheme-r6rs,0.1.1,40116,8,2026-08-20T11:07:20.986159
 scheme-r6rs-cli,bobzhang/scheme-r6rs-cli,0.1.0,170,1,2026-08-20T08:11:50.890795
 screenshots,justjavac/screenshots,0.1.2,490,3,2026-06-10T05:51:35.34522
 screeps,Kaida-Amethyst/screeps,0.1.0,6542,3,2026-04-16T11:07:21.393926
-sdl,klaseca/sdl,0.1.0,1917,1,2026-08-01T18:23:49.677362
+sdl,klaseca/sdl,0.1.1,1917,1,2026-09-19T18:30:41.713556
 sdl3,emadurandal/sdl3,0.1.2,22948,4,2026-05-20T10:33:14.900097
 sdl3,Kaida-Amethyst/sdl3,0.1.1,22939,4,2026-03-31T03:22:48.743987
-sdl-sys,klaseca/sdl-sys,0.1.0,2416,1,2026-08-01T18:20:42.674163
+sdl-sys,klaseca/sdl-sys,0.1.1,2424,1,2026-09-19T18:27:54.019385
 selene,KKKIIO/selene,0.37.5,79443,63,2026-07-29T09:09:41.536675
 selene,Milky2018/selene,0.37.3,68257,59,2026-09-07T09:11:13.84895
 selene-canvas,Milky2018/selene-canvas,0.20.1,591,1,2026-02-28T10:39:34.371961
