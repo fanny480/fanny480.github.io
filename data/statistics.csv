@@ -1564,7 +1564,7 @@ moonbitSPC,mwqcodex/moonbitSPC,0.2.0,10987,3,2026-08-19T18:27:17.903877
 moonbit-spice,pzq893/moonbit-spice,0.2.0,8405,2,2026-08-24T14:53:56.194096
 moonbit_sqlc_plugin,Mairzzcllo/moonbit_sqlc_plugin,0.1.9,24370,3,2026-07-07T12:38:11.792289
 moonbit-sse,shen-E/moonbit-sse,0.2.0,5802,8,2026-11-06T13:02:37.164238
-moonbit_static_analysis,riantr/moonbit_static_analysis,0.4.47,78033,17,2026-11-14T12:31:08.501333
+moonbit_static_analysis,riantr/moonbit_static_analysis,0.4.48,80864,17,2026-11-14T18:42:21.542833
 moonbit_stickman_map_loader,Demonmasterlqx/moonbit_stickman_map_loader,0.0.9,952,3,2025-11-12T07:03:40.008372
 moonbit-submit-guard,JJ-ai-nb/moonbit-submit-guard,0.1.0,1019,2,2026-08-16T10:05:55.993974
 moonbit-synthetic-vision,caassien/moonbit-synthetic-vision,0.3.0,9616,4,2026-08-24T08:36:05.114887
@@ -3693,7 +3693,7 @@ windowing,Milky2018/windowing,0.1.2,513,1,2026-10-13T04:10:53.290363
 windowing,wzzc-dev/windowing,0.1.2,517,1,2026-10-28T13:50:49.393697
 windows_subsystem,justjavac/windows_subsystem,0.1.6,95,1,2026-10-19T05:51:41.215361
 wire_token,wiretokenbotca4491/wire_token,0.1.0,104,1,2026-10-19T11:34:11.293585
-wit,mizchi/wit,0.4.0,7263,2,2026-11-14T17:36:43.732234
+wit,mizchi/wit,0.4.1,9353,2,2026-11-14T18:45:21.072599
 wit,moonrockz/wit,0.4.0,141391,25,2026-11-08T05:19:32.542341
 wite,mizchi/wite,0.11.3,49588,16,2026-08-15T15:26:51.432664
 wit-ffi,BigOrangeQWQ/wit-ffi,0.1.0,175,1,2025-06-14T14:40:16.553427
